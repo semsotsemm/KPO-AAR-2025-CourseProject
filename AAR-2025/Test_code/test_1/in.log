@@ -1,0 +1,379 @@
+Дата создания протокола: 06.12.2025 в 15:22:47
+
+------------- Параметры -------------
+
+-in :  C:\Users\user\work_space\Laboratory_work\KPO_3SEM\AAR-2025-CourseProject\AAR-2025\Test_code\test_1\in.txt
+-log:  C:\Users\user\work_space\Laboratory_work\KPO_3SEM\AAR-2025-CourseProject\AAR-2025\Test_code\test_1\in.log
+-out:  C:\Users\user\work_space\Laboratory_work\KPO_3SEM\AAR-2025-CourseProject\AAR-2025\Test_code\test_1\in.asm
+-------------------------------------
+---------- Лексический анализ --------
+
+Лексический анализ прошел успешно.
+
+--------- Результаты анализа --------
+
+Таблица лексем:
+
+Всего лексем: 233
+
+fix(oix,oix)
+{
+vix;
+vix;
+x=x+x;
+x=x*x%(x);
+rx;
+};
+fsx(osx,osx,obx)
+{
+vsx;
+c(x):
+{
+x=x;
+}
+e
+{
+x=x;
+}
+rx;
+};
+m{
+vix;
+vix;
+vsx;
+vix;
+vbx=l;
+vbx=l;
+x=l;
+x=l;
+pl;
+pl;
+px+x;
+pl;
+pl;
+px(l,l,x);
+pl;
+pl;
+px(l,l,x);
+pl;
+c(x==l):
+{
+pl;
+}
+e
+{
+pl;
+}
+pl;
+w(x)
+{
+al:
+{
+pl;
+}
+ax:
+{
+pl;
+}
+al:
+{
+pl;
+}
+}
+pl;
+px;
+rl;
+};
+
+Таблица идентификаторов:
+
+Всего идентификаторов: 40
+
+Индекс  Имя         Тип             Тип данных     Значение    
+---------------------------------------------------------------
+3       calcu       (F)Функция      INT                       0
+7       x           (P)Параметр     INT                       0
+11      y           (P)Параметр     INT                       0
+16      sum_v       (V)Переменная   INT                       0
+20      prod_       (V)Переменная   INT                       0
+45      conca       (F)Функция      STR                        
+49      s1          (P)Параметр     STR                        
+53      s2          (P)Параметр     STR                        
+57      condi       (P)Параметр     BOOL                  UNDEF
+62      resul       (V)Переменная   STR                        
+91      a           (V)Переменная   INT                       0
+95      b           (V)Переменная   INT                       0
+99      final       (V)Переменная   STR                        
+107     check       (V)Переменная   BOOL                  UNDEF
+109     lnum        (L)Литерал      INT                       1
+115     lnum        (L)Литерал      INT                       0
+119     lnum        (L)Литерал      INT                      10
+123     lnum        (L)Литерал      INT                       5
+126     Lstr        (L)Литерал      STR            --- TEST 1: Func Call and Int ---
+129     Lstr        (L)Литерал      STR            a+b * b % (a+b) result:
+137     Lstr        (L)Литерал      STR            --- TEST 2: Concatenate (True) ---
+140     Lstr        (L)Литерал      STR            Result of True case:
+145     Lstr        (L)Литерал      STR            TrueString_Case
+147     Lstr        (L)Литерал      STR            FalseString_Case
+153     Lstr        (L)Литерал      STR            --- TEST 3: Concatenate (False) ---
+156     Lstr        (L)Литерал      STR            Result of False case:
+161     Lstr        (L)Литерал      STR            TrueString_Case
+163     Lstr        (L)Литерал      STR            FalseString_Case
+169     Lstr        (L)Литерал      STR            --- TEST 4: If-Else (a==15 is False) ---
+176     lnum        (L)Литерал      INT                      15
+181     Lstr        (L)Литерал      STR            This should NOT be printed.
+187     Lstr        (L)Литерал      STR            If-Else: False branch executed.
+191     Lstr        (L)Литерал      STR            --- TEST 5: Switch (result_int is 5) ---
+199     lnum        (L)Литерал      INT                      50
+203     Lstr        (L)Литерал      STR            Switch: Case 50 is wrong.
+211     Lstr        (L)Литерал      STR            Switch: Case A is wrong.
+215     lnum        (L)Литерал      INT                       5
+219     Lstr        (L)Литерал      STR            Switch: Correct Case 5 executed.
+224     Lstr        (L)Литерал      STR            --- TEST 6: Bool Print ---
+230     lnum        (L)Литерал      INT                       0
+
+
+---------- Синтаксический анализ --------
+
+Синтаксический анализ прошел успешно.
+
+--------- Результат анализа --------
+
+Таблица лексем:
+
+Всего лексем: 233
+
+fix(oix,oix)
+{
+vix;
+vix;
+x=x+x;
+x=x*x%(x);
+rx;
+};
+fsx(osx,osx,obx)
+{
+vsx;
+c(x):
+{
+x=x;
+}
+e
+{
+x=x;
+}
+rx;
+};
+m{
+vix;
+vix;
+vsx;
+vix;
+vbx=l;
+vbx=l;
+x=l;
+x=l;
+pl;
+pl;
+px+x;
+pl;
+pl;
+px(l,l,x);
+pl;
+pl;
+px(l,l,x);
+pl;
+c(x==l):
+{
+pl;
+}
+e
+{
+pl;
+}
+pl;
+w(x)
+{
+al:
+{
+pl;
+}
+ax:
+{
+pl;
+}
+al:
+{
+pl;
+}
+}
+pl;
+px;
+rl;
+};
+
+---------- Семантический анализ --------
+
+Семантический анализ прошел успешно.
+
+--------- Результат анализа --------
+
+Таблица лексем:
+
+Всего лексем: 233
+
+fix(oix,oix)
+{
+vix;
+vix;
+x=x+x;
+x=x*x%(x);
+rx;
+};
+fsx(osx,osx,obx)
+{
+vsx;
+c(x):
+{
+x=x;
+}
+e
+{
+x=x;
+}
+rx;
+};
+m{
+vix;
+vix;
+vsx;
+vix;
+vbx=l;
+vbx=l;
+x=l;
+x=l;
+pl;
+pl;
+px+x;
+pl;
+pl;
+px(l,l,x);
+pl;
+pl;
+px(l,l,x);
+pl;
+c(x==l):
+{
+pl;
+}
+e
+{
+pl;
+}
+pl;
+w(x)
+{
+al:
+{
+pl;
+}
+ax:
+{
+pl;
+}
+al:
+{
+pl;
+}
+}
+pl;
+px;
+rl;
+};
+
+--------- Преобразование кода в обратную польскую запись ---------
+
+Преобразование кода в ОПЗ прошло успешно.
+
+--------- Результат преобразования в ОПЗ ---------
+
+Таблица лексем:
+
+Всего лексем: 233
+
+fix(oix,oix)
+{
+vix;
+vix;
+x=xx+;
+x=xx*x%  ;
+rx;
+};
+fsx(osx,osx,obx)
+{
+vsx;
+c(x):
+{
+x=x;
+}
+e
+{
+x=x;
+}
+rx;
+};
+m{
+vix;
+vix;
+vsx;
+vix;
+vbx=l;
+vbx=l;
+x=l;
+x=l;
+pl;
+pl;
+px+x;
+pl;
+pl;
+px(l,l,x);
+pl;
+pl;
+px(l,l,x);
+pl;
+c(x=l ):
+{
+pl;
+}
+e
+{
+pl;
+}
+pl;
+w(x)
+{
+al:
+{
+pl;
+}
+ax:
+{
+pl;
+}
+al:
+{
+pl;
+}
+}
+pl;
+px;
+rl;
+};
+
+---------- Генерация кода в Ассемблер --------
+
+Ассемблер успешно сгенерирован.
+
+---------- Результат генерации --------
+
+Файл с исходным кодом на языке ассемблер находится по пути: C:\Users\user\work_space\Laboratory_work\KPO_3SEM\AAR-2025-CourseProject\AAR-2025\Test_code\test_1\in.asm

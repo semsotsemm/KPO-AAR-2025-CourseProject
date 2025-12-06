@@ -1,0 +1,81 @@
+def int calculate_sum_and_product(param int x, param int y)
+{
+    let int sum_val;
+    let int prod_val;
+    
+    sum_val = x + y; 
+    prod_val = x * y % (sum_val);
+
+    return prod_val; 
+};
+
+def string concatenate_if(param string s1, param string s2, param bool condition)
+{
+    let string result;
+    
+    if(condition):
+    {
+        result = s1; 
+    }
+    else
+    {
+        result = s2;
+    }
+    return result; 
+};
+
+main {
+    let int a;
+    let int b;
+    let string final_str;
+    let int result_int;
+    let bool check_true = 1; 
+    let bool check_false = 0;
+
+    a = 10;
+    b = 5;
+
+    print '--- TEST 1: Func Call and Int ---';
+    print 'a+b * b % (a+b) result:';
+    print a+b; 
+    
+    print '--- TEST 2: Concatenate (True) ---';
+    print 'Result of True case:';
+    print concatenate_if('TrueString_Case', 'FalseString_Case', check_true);
+    
+    print '--- TEST 3: Concatenate (False) ---';
+    print 'Result of False case:';
+    print concatenate_if('TrueString_Case', 'FalseString_Case', check_false); 
+
+    print '--- TEST 4: If-Else (a==15 is False) ---';
+    if(a == 15):
+    {
+        print 'This should NOT be printed.';
+    }
+    else
+    {
+        print 'If-Else: False branch executed.'; 
+    }
+    
+    print '--- TEST 5: Switch (result_int is 5) ---';
+    switch(result_int) 
+    {
+        case 50: 
+        {
+            print 'Switch: Case 50 is wrong.';
+        }
+        case a: 
+        {
+            print 'Switch: Case A is wrong.';
+        }
+        case 5: 
+        {
+            print 'Switch: Correct Case 5 executed.';
+        }
+    }
+    
+    print '--- TEST 6: Bool Print ---';
+    print check_true; 
+
+    return 0;
+};

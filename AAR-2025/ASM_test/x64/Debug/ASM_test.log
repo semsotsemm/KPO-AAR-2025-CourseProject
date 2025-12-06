@@ -1,0 +1,25 @@
+﻿  Assembling test.asm...
+test.asm(1): error A2008: syntax error : .
+test.asm(2): error A2008: syntax error : .
+test.asm(12): error A2008: syntax error : .
+test.asm(100): error A2070: invalid instruction operands
+test.asm(101): error A2070: invalid instruction operands
+test.asm(107): error A2070: invalid instruction operands
+test.asm(109): error A2070: invalid instruction operands
+test.asm(113): error A2070: invalid instruction operands
+test.asm(115): error A2070: invalid instruction operands
+test.asm(119): error A2070: invalid instruction operands
+test.asm(120): error A2070: invalid instruction operands
+test.asm(121): error A2070: invalid instruction operands
+test.asm(132): error A2070: invalid instruction operands
+test.asm(134): error A2070: invalid instruction operands
+test.asm(140): error A2070: invalid instruction operands
+test.asm(142): error A2070: invalid instruction operands
+test.asm(148): error A2070: invalid instruction operands
+test.asm(150): error A2070: invalid instruction operands
+test.asm(152): error A2070: invalid instruction operands
+test.asm(154): error A2070: invalid instruction operands
+test.asm(158): error A2070: invalid instruction operands
+test.asm(161): error A2008: syntax error : main
+test.asm(161): error A2088: END directive required at end of file
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\BuildCustomizations\masm.targets(70,5): error MSB3721: выход из команды "ml64.exe /c /nologo /Zi /Fo"x64\Debug\test.obj" /W3 /errorReport:prompt  /Tatest.asm" с кодом "1".
