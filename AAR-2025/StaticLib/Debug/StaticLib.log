@@ -1,0 +1,12 @@
+﻿  pch.cpp
+  StandartFunc.cpp
+C:\Users\user\work_space\Laboratory_work\KPO_3SEM\AAR-2025-CourseProject\AAR-2025\StaticLib\StandartFunc.cpp(54,13): warning C4244: return: преобразование "double" в "int", возможна потеря данных
+  (компиляция исходного файла "/StandartFunc.cpp")
+  
+C:\Users\user\work_space\Laboratory_work\KPO_3SEM\AAR-2025-CourseProject\AAR-2025\StaticLib\StandartFunc.cpp(59,13): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  (компиляция исходного файла "/StandartFunc.cpp")
+  
+C:\Users\user\work_space\Laboratory_work\KPO_3SEM\AAR-2025-CourseProject\AAR-2025\StaticLib\StandartFunc.cpp(74,14): warning C4244: return: преобразование "double" в "int", возможна потеря данных
+  (компиляция исходного файла "/StandartFunc.cpp")
+  
+  StaticLib.vcxproj -> C:\Users\user\work_space\Laboratory_work\KPO_3SEM\AAR-2025-CourseProject\AAR-2025\Debug\StaticLib.lib
