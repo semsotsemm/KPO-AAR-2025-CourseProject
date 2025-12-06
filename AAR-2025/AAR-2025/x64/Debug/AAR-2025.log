@@ -1,0 +1,11 @@
+﻿  AAR-2025.cpp
+C:\Users\user\work_space\Laboratory_work\KPO_3SEM\AAR-2025-CourseProject\AAR-2025\AAR-2025\Error.h(17,9): warning C4005: ERROR_ENTRY_NODEF100: изменение макроопределения
+  (компиляция исходного файла "AAR-2025.cpp")
+      C:\Users\user\work_space\Laboratory_work\KPO_3SEM\AAR-2025-CourseProject\AAR-2025\AAR-2025\Error.h(15,9):
+      см. предыдущее определение "ERROR_ENTRY_NODEF100"
+  
+C:\Users\user\work_space\Laboratory_work\KPO_3SEM\AAR-2025-CourseProject\AAR-2025\AAR-2025\AAR-2025.cpp(16,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\Users\user\work_space\Laboratory_work\KPO_3SEM\AAR-2025-CourseProject\AAR-2025\AAR-2025\AAR-2025.cpp(17,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+  Generator.cpp
+  Создание кода...
+  AAR-2025.vcxproj -> C:\Users\user\work_space\Laboratory_work\KPO_3SEM\AAR-2025-CourseProject\AAR-2025\x64\Debug\AAR-2025.exe
