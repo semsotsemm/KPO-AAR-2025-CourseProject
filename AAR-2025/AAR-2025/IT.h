@@ -10,7 +10,12 @@
 
 namespace IT {
     enum IDDATATYPE { INT = 1, STR = 2, BOOL = 3, UNDEF = 3 };
-    enum IDTYPE { V = 1, F = 2, P = 3, L = 4 };
+    enum IDTYPE { 
+        V = 1,      // Переменная
+        F = 2,      // Функиция
+        P = 3,      // Параметр
+        L = 4       // Литерал
+    };
 
     struct Entry {
         int idxfirstLE;                

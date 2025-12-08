@@ -29,52 +29,53 @@ main {
     let int b;
     let string final_str;
     let int result_int;
-    let bool check_true = 1; 
-    let bool check_false = 0;
+    let bool chec1_true = 1; 
+    let bool chec2_false = 0;
+    let int c;
 
     a = 10;
     b = 5;
 
-    print '--- TEST 1: Func Call and Int ---';
-    print 'a+b * b % (a+b) result:';
-    print a+b; 
+    print '--- Тест 1: Вызов функции с возращаемым значением int ---';
+    print 'a+b * b % (a+b):';
+    print calculate_sum_and_product(a, b); 
     
-    print '--- TEST 2: Concatenate (True) ---';
-    print 'Result of True case:';
-    print concatenate_if('TrueString_Case', 'FalseString_Case', check_true);
+    print '--- Тест 2: Вызов функции с возращаемым значением string (внутри проверка bool) ---';
+    print 'Результат должен быть истина:';
+    print concatenate_if('Истина', 'Ложь', chec1_true);
     
-    print '--- TEST 3: Concatenate (False) ---';
-    print 'Result of False case:';
-    print concatenate_if('TrueString_Case', 'FalseString_Case', check_false); 
-
-    print '--- TEST 4: If-Else (a==15 is False) ---';
+    print '--- Тест 3: Вызов функции с возращаемым значением string (внутри проверка bool) ---';
+    print 'Результат должен быть ложь:';
+    print concatenate_if('Истина', 'Ложь', chec2_false); 
+    
+    print '--- Тест 4: Проверка if (а == 15) ---';
     if(a == 15):
     {
-        print 'This should NOT be printed.';
+        print 'Истина';
     }
     else
     {
-        print 'If-Else: False branch executed.'; 
+        print 'Ложь'; 
     }
     
-    print '--- TEST 5: Switch (result_int is 5) ---';
-    switch(result_int) 
+    print '--- Тест 5: Switch(50) ---';
+    switch(50) 
     {
         case 50: 
         {
-            print 'Switch: Case 50 is wrong.';
+            print 'Успех! это 50';
         }
         case a: 
         {
-            print 'Switch: Case A is wrong.';
+            print 'Неверно! это a';
         }
         case 5: 
         {
-            print 'Switch: Correct Case 5 executed.';
+            print 'Неверно! это 5';
         }
     }
     
-    print '--- TEST 6: Bool Print ---';
+    print '--- Тест 6: Попытка вывести тип данных bool (false)---';
     print check_true; 
 
     return 0;

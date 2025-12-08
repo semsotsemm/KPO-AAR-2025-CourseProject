@@ -1,10 +1,10 @@
-Дата создания протокола: 06.12.2025 в 15:22:47
+Дата создания протокола: 08.12.2025 в 18:43:40
 
 ------------- Параметры -------------
 
--in :  C:\Users\user\work_space\Laboratory_work\KPO_3SEM\AAR-2025-CourseProject\AAR-2025\Test_code\test_1\in.txt
--log:  C:\Users\user\work_space\Laboratory_work\KPO_3SEM\AAR-2025-CourseProject\AAR-2025\Test_code\test_1\in.log
--out:  C:\Users\user\work_space\Laboratory_work\KPO_3SEM\AAR-2025-CourseProject\AAR-2025\Test_code\test_1\in.asm
+-in :  C:\Users\user\work_space\Laboratory_work\KPO_3SEM\KPO-AAR-2025-CourseProject\AAR-2025\Test_code\test_1\in.txt
+-log:  C:\Users\user\work_space\Laboratory_work\KPO_3SEM\KPO-AAR-2025-CourseProject\AAR-2025\Test_code\test_1\in.log
+-out:  C:\Users\user\work_space\Laboratory_work\KPO_3SEM\KPO-AAR-2025-CourseProject\AAR-2025\Test_code\test_1\in.asm
 -------------------------------------
 ---------- Лексический анализ --------
 
@@ -14,7 +14,7 @@
 
 Таблица лексем:
 
-Всего лексем: 233
+Всего лексем: 267
 
 fix(oix,oix)
 {
@@ -37,6 +37,10 @@ x=x;
 }
 rx;
 };
+fsx(oix,oix)
+{
+rl;
+};
 m{
 vix;
 vix;
@@ -44,11 +48,13 @@ vsx;
 vix;
 vbx=l;
 vbx=l;
+vix;
 x=l;
 x=l;
+x(x,x,x);
 pl;
 pl;
-px+x;
+px(x,x);
 pl;
 pl;
 px(l,l,x);
@@ -65,7 +71,7 @@ e
 pl;
 }
 pl;
-w(x)
+w(l)
 {
 al:
 {
@@ -87,7 +93,7 @@ rl;
 
 Таблица идентификаторов:
 
-Всего идентификаторов: 40
+Всего идентификаторов: 46
 
 Индекс  Имя         Тип             Тип данных     Значение    
 ---------------------------------------------------------------
@@ -101,36 +107,42 @@ rl;
 53      s2          (P)Параметр     STR                        
 57      condi       (P)Параметр     BOOL                  UNDEF
 62      resul       (V)Переменная   STR                        
-91      a           (V)Переменная   INT                       0
-95      b           (V)Переменная   INT                       0
-99      final       (V)Переменная   STR                        
-107     check       (V)Переменная   BOOL                  UNDEF
-109     lnum        (L)Литерал      INT                       1
-115     lnum        (L)Литерал      INT                       0
-119     lnum        (L)Литерал      INT                      10
-123     lnum        (L)Литерал      INT                       5
-126     Lstr        (L)Литерал      STR            --- TEST 1: Func Call and Int ---
-129     Lstr        (L)Литерал      STR            a+b * b % (a+b) result:
-137     Lstr        (L)Литерал      STR            --- TEST 2: Concatenate (True) ---
-140     Lstr        (L)Литерал      STR            Result of True case:
-145     Lstr        (L)Литерал      STR            TrueString_Case
-147     Lstr        (L)Литерал      STR            FalseString_Case
-153     Lstr        (L)Литерал      STR            --- TEST 3: Concatenate (False) ---
-156     Lstr        (L)Литерал      STR            Result of False case:
-161     Lstr        (L)Литерал      STR            TrueString_Case
-163     Lstr        (L)Литерал      STR            FalseString_Case
-169     Lstr        (L)Литерал      STR            --- TEST 4: If-Else (a==15 is False) ---
-176     lnum        (L)Литерал      INT                      15
-181     Lstr        (L)Литерал      STR            This should NOT be printed.
-187     Lstr        (L)Литерал      STR            If-Else: False branch executed.
-191     Lstr        (L)Литерал      STR            --- TEST 5: Switch (result_int is 5) ---
-199     lnum        (L)Литерал      INT                      50
-203     Lstr        (L)Литерал      STR            Switch: Case 50 is wrong.
-211     Lstr        (L)Литерал      STR            Switch: Case A is wrong.
-215     lnum        (L)Литерал      INT                       5
-219     Lstr        (L)Литерал      STR            Switch: Correct Case 5 executed.
-224     Lstr        (L)Литерал      STR            --- TEST 6: Bool Print ---
-230     lnum        (L)Литерал      INT                       0
+89      errde       (F)Функция      STR                        
+93      a           (P)Параметр     INT                       0
+97      b           (P)Параметр     INT                       0
+101     Lstr        (L)Литерал      STR            ddd         
+117     final       (V)Переменная   STR                        
+125     chec1       (V)Переменная   BOOL                  UNDEF
+127     lnum        (L)Литерал      INT                       1
+131     chec2       (V)Переменная   BOOL                  UNDEF
+133     lnum        (L)Литерал      INT                       0
+137     c           (V)Переменная   INT                       0
+141     lnum        (L)Литерал      INT                      10
+145     lnum        (L)Литерал      INT                       5
+157     Lstr        (L)Литерал      STR            --- Тест 1: Вызов функции с возращаемым значением int ---
+160     Lstr        (L)Литерал      STR            a+b * b % (a+b):
+171     Lstr        (L)Литерал      STR            --- Тест 2: Вызов функции с возращаемым значением string (внутри проверка bool) ---
+174     Lstr        (L)Литерал      STR            Результат должен быть истина:
+179     Lstr        (L)Литерал      STR            Истина      
+181     Lstr        (L)Литерал      STR            Ложь        
+187     Lstr        (L)Литерал      STR            --- Тест 3: Вызов функции с возращаемым значением string (внутри проверка bool) ---
+190     Lstr        (L)Литерал      STR            Результат должен быть ложь:
+195     Lstr        (L)Литерал      STR            Истина      
+197     Lstr        (L)Литерал      STR            Ложь        
+203     Lstr        (L)Литерал      STR            --- Тест 4: Проверка if (а == 15) ---
+210     lnum        (L)Литерал      INT                      15
+215     Lstr        (L)Литерал      STR            Истина      
+221     Lstr        (L)Литерал      STR            Ложь        
+225     Lstr        (L)Литерал      STR            --- Тест 5: Switch(50) ---
+229     lnum        (L)Литерал      INT                      50
+233     lnum        (L)Литерал      INT                      50
+237     Lstr        (L)Литерал      STR            Успех! это 50
+245     Lstr        (L)Литерал      STR            Неверно! это a
+249     lnum        (L)Литерал      INT                       5
+253     Lstr        (L)Литерал      STR            Неверно! это 5
+258     Lstr        (L)Литерал      STR            --- Тест 6: Попытка вывести тип данных bool (false)---
+261     check       (V)Переменная   BOOL                  UNDEF
+264     lnum        (L)Литерал      INT                       0
 
 
 ---------- Синтаксический анализ --------
@@ -141,7 +153,7 @@ rl;
 
 Таблица лексем:
 
-Всего лексем: 233
+Всего лексем: 267
 
 fix(oix,oix)
 {
@@ -164,6 +176,10 @@ x=x;
 }
 rx;
 };
+fsx(oix,oix)
+{
+rl;
+};
 m{
 vix;
 vix;
@@ -171,11 +187,13 @@ vsx;
 vix;
 vbx=l;
 vbx=l;
+vix;
 x=l;
 x=l;
+x(x,x,x);
 pl;
 pl;
-px+x;
+px(x,x);
 pl;
 pl;
 px(l,l,x);
@@ -192,7 +210,7 @@ e
 pl;
 }
 pl;
-w(x)
+w(l)
 {
 al:
 {
@@ -214,166 +232,4 @@ rl;
 
 ---------- Семантический анализ --------
 
-Семантический анализ прошел успешно.
-
---------- Результат анализа --------
-
-Таблица лексем:
-
-Всего лексем: 233
-
-fix(oix,oix)
-{
-vix;
-vix;
-x=x+x;
-x=x*x%(x);
-rx;
-};
-fsx(osx,osx,obx)
-{
-vsx;
-c(x):
-{
-x=x;
-}
-e
-{
-x=x;
-}
-rx;
-};
-m{
-vix;
-vix;
-vsx;
-vix;
-vbx=l;
-vbx=l;
-x=l;
-x=l;
-pl;
-pl;
-px+x;
-pl;
-pl;
-px(l,l,x);
-pl;
-pl;
-px(l,l,x);
-pl;
-c(x==l):
-{
-pl;
-}
-e
-{
-pl;
-}
-pl;
-w(x)
-{
-al:
-{
-pl;
-}
-ax:
-{
-pl;
-}
-al:
-{
-pl;
-}
-}
-pl;
-px;
-rl;
-};
-
---------- Преобразование кода в обратную польскую запись ---------
-
-Преобразование кода в ОПЗ прошло успешно.
-
---------- Результат преобразования в ОПЗ ---------
-
-Таблица лексем:
-
-Всего лексем: 233
-
-fix(oix,oix)
-{
-vix;
-vix;
-x=xx+;
-x=xx*x%  ;
-rx;
-};
-fsx(osx,osx,obx)
-{
-vsx;
-c(x):
-{
-x=x;
-}
-e
-{
-x=x;
-}
-rx;
-};
-m{
-vix;
-vix;
-vsx;
-vix;
-vbx=l;
-vbx=l;
-x=l;
-x=l;
-pl;
-pl;
-px+x;
-pl;
-pl;
-px(l,l,x);
-pl;
-pl;
-px(l,l,x);
-pl;
-c(x=l ):
-{
-pl;
-}
-e
-{
-pl;
-}
-pl;
-w(x)
-{
-al:
-{
-pl;
-}
-ax:
-{
-pl;
-}
-al:
-{
-pl;
-}
-}
-pl;
-px;
-rl;
-};
-
----------- Генерация кода в Ассемблер --------
-
-Ассемблер успешно сгенерирован.
-
----------- Результат генерации --------
-
-Файл с исходным кодом на языке ассемблер находится по пути: C:\Users\user\work_space\Laboratory_work\KPO_3SEM\AAR-2025-CourseProject\AAR-2025\Test_code\test_1\in.asm
+Ошибка: Количество ожидаемых функцией и передаваемых параметров не совпадают

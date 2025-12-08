@@ -10,18 +10,21 @@
 
 extern "C"
 {
-	int lenght(char* str)										//длина строки
+	// Длина строки
+	int lenght(char* str)										
 	{
 		return strlen(str);
 	}
 
-	int write_int(int p)											//вывод числа
+	// Вывод числа
+	int write_int(int p)											
 	{
 		std::cout << p << std::endl;
 		return 0;
 	}
 
-	int write_str(char* str)										//вывод строки
+	// Вывод строки
+	int write_str(char* str)										
 	{
 		setlocale(LC_ALL, "rus");
 		std::cout << str << std::endl;
@@ -40,26 +43,20 @@ extern "C"
 		return str1;
 	}
 
-	//-------------------------
-
-	char* getLocalTimeAndDate()
-	{
-		time_t now = time(0);
-		char* dt = ctime(&now);
-		return dt;
-	}
-
+	// Возведение числа в степень
 	int powNumber(int num, int num2)
 	{
 		return pow(num, num2);
 	}
 
+	// Получить случайное число в промежутке
 	int random(int start, int end)
 	{
 		srand(time(NULL));
 		return rand() % end + start;
 	}
 
+	// Получить факториал числа
 	int factorialOfNumber(int num)
 	{
 		int res = 1;
@@ -69,10 +66,9 @@ extern "C"
 		return res;
 	}
 
+	// Извлечь корень
 	int squareOfNumber(int num)
 	{
 		return sqrt(num);
 	}
-
-
 }

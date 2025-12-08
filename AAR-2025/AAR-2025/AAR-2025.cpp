@@ -39,7 +39,7 @@ int _tmain(int argc, _TCHAR* argv[])
 
         Log::WriteLine(log, (char*)"---------- Лексический анализ --------\n", "");
         Lexer::Analyze(in, lextable, idtable);
-
+         
         Log::WriteLine(log, (char*)"Лексический анализ прошел успешно.\n", "");
 
         Log::WriteLine(log, (char*)"--------- Результаты анализа --------\n", "");

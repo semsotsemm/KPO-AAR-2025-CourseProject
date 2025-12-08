@@ -3,6 +3,10 @@
 #include "LT.h"
 #include "IT.h"
 
+#define OP_EQUAL_EQUAL     '#' 
+#define OP_GREATER_EQUAL   'G' 
+#define OP_LESS_EQUAL      'L' 
+
 #include <queue>
 
 namespace PN

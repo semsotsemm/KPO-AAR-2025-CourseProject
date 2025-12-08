@@ -1,1 +1,7 @@
-﻿  AAR-2025.vcxproj -> C:\Users\user\work_space\Laboratory_work\KPO_3SEM\AAR-2025-CourseProject\AAR-2025\Debug\AAR-2025.exe
+﻿  Error.cpp
+C:\Users\user\work_space\Laboratory_work\KPO_3SEM\KPO-AAR-2025-CourseProject\AAR-2025\AAR-2025\Error.h(17,9): warning C4005: ERROR_ENTRY_NODEF100: изменение макроопределения
+  (компиляция исходного файла "Error.cpp")
+      C:\Users\user\work_space\Laboratory_work\KPO_3SEM\KPO-AAR-2025-CourseProject\AAR-2025\AAR-2025\Error.h(15,9):
+      см. предыдущее определение "ERROR_ENTRY_NODEF100"
+  
+  AAR-2025.vcxproj -> C:\Users\user\work_space\Laboratory_work\KPO_3SEM\KPO-AAR-2025-CourseProject\AAR-2025\Debug\AAR-2025.exe

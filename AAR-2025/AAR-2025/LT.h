@@ -32,6 +32,9 @@
 #define LEX_PECENT      '%'
 #define LEX_DIRSLASH	'/'
 #define LEX_EQUAL		'='
+#define LEX_EXCLAMATION	'!'
+#define LEX_LESS		'<'
+#define LEX_GREATHER	'>'
 
 #define LEX_RIGHTHESIS  ')'
 #define LEX_SEMICOLON	';'

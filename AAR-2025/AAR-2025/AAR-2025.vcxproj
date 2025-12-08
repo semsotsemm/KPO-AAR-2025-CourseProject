@@ -152,6 +152,10 @@
     <ClInclude Include="PolishNotation.h" />
     <ClInclude Include="SemanticAnaliz.h" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\Test_code\test_1\in.log" />
+    <Text Include="..\Test_code\test_1\in.txt" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
     <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.targets" />

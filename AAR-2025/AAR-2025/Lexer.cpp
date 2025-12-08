@@ -269,6 +269,12 @@ namespace Lexer
                     break;
                 case '=': symbol = LEX_EQUAL;
                     break;
+                case '>': symbol = LEX_GREATHER;
+                    break;
+                case '<': symbol = LEX_LESS;
+                    break;
+                case '!': symbol = LEX_EXCLAMATION;
+                    break;
                 }
                 if (symbol == 0)
                 {

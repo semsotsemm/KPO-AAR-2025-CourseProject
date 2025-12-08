@@ -5,7 +5,6 @@ char rbuf[205], sbuf[205], lbuf[1024];	//для печати
 
 namespace MFST
 {
-	/*Конструкторы*/
 	MfstState::MfstState()
 	{
 		lenta_position = -1;

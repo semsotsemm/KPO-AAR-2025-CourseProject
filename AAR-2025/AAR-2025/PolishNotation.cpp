@@ -3,11 +3,13 @@
 #include <queue>
 #include <iostream>
 
+
 using namespace std;
 
 namespace PN
 {
 	int priority(char v);
+
 
 	bool polishNotation(int lextable_pos, LT::LexTable& lextable, IT::IdTable& idtable)
 	{
@@ -15,13 +17,13 @@ namespace PN
 		queue<LT::Entry> result;
 		bool function = false;
 		int quantityParm = 0;
-		int i = lextable_pos; // Индекс входа в выражение (после '=')
+		int i = lextable_pos;
 
-		// 1. ПРЕОБРАЗОВАНИЕ В ОПЗ
 		for (; i < lextable.size && lextable.table[i].lexema[0] != LEX_SEMICOLON &&
 			(lextable.table[i].lexema[0] != LEX_RIGHTHESIS || !stk.empty()); i++)
 		{
 			char current_lexema = lextable.table[i].lexema[0];
+			char next_lexema = (i >= 1) ? lextable.table[i - 1].lexema[0] : ' ';
 
 			switch (current_lexema)
 			{
@@ -29,7 +31,6 @@ namespace PN
 			case LEX_LITERAL:
 			case LEX_TRUE:
 			case LEX_FALSE:
-				// Если это функция
 				if (current_lexema == LEX_ID && idtable.table[lextable.table[i].idxTI].idtype == IT::IDTYPE::F)
 				{
 					quantityParm = 0;
@@ -38,23 +39,50 @@ namespace PN
 				}
 				else
 				{
-					// Если это параметр функции
 					if (function && !quantityParm)
 						quantityParm++;
 					result.push(lextable.table[i]);
 				}
 				break;
 
-				// ИСПРАВЛЕНО: Каждый case должен быть отдельно
 			case LEX_PLUS:
 			case LEX_MINUS:
 			case LEX_STAR:
 			case LEX_PECENT:
 			case LEX_DIRSLASH:
-			case '<':  // Добавлены операторы сравнения
-			case '>':
+			case LEX_LESS:
+			case LEX_GREATHER:
+			case LEX_EQUAL:
+			case LEX_EXCLAMATION:
 			{
-				int current_priority = priority(current_lexema);
+				char operator_to_push = current_lexema;
+
+				if (current_lexema == LEX_EQUAL && next_lexema == LEX_EQUAL)
+				{
+					operator_to_push = OP_EQUAL_EQUAL;
+					i++; 
+				}
+				else if (current_lexema == LEX_EXCLAMATION && next_lexema == LEX_EQUAL)
+				{
+					operator_to_push = LEX_EXCLAMATION;
+					i++; 
+				}
+				else if (current_lexema == LEX_GREATHER && next_lexema == LEX_EQUAL)
+				{
+					operator_to_push = OP_GREATER_EQUAL;
+					i++; 
+				}
+				else if (current_lexema == LEX_LESS && next_lexema == LEX_EQUAL)
+				{
+					operator_to_push = OP_LESS_EQUAL;
+					i++;
+				}
+				else if (current_lexema == LEX_EQUAL)
+				{
+					continue;
+				}
+
+				int current_priority = priority(operator_to_push);
 
 				while (!stk.empty() &&
 					stk.top().lexema[0] != LEX_LEFTHESIS &&
@@ -63,7 +91,11 @@ namespace PN
 					result.push(stk.top());
 					stk.pop();
 				}
-				stk.push(lextable.table[i]);
+				LT::Entry operator_entry;
+				operator_entry.lexema[0] = operator_to_push;
+				operator_entry.sn = lextable.table[i].sn;
+
+				stk.push(operator_entry);
 			}
 			break;
 
@@ -72,22 +104,19 @@ namespace PN
 				break;
 
 			case LEX_RIGHTHESIS:
-				// Выталкиваем всё до открывающей скобки
 				while (!stk.empty() && stk.top().lexema[0] != LEX_LEFTHESIS)
 				{
 					result.push(stk.top());
 					stk.pop();
 				}
 
-				// Удаляем открывающую скобку '(' из стека (она не идет в результат)
 				if (!stk.empty())
 					stk.pop();
 				else
-					return false; // Ошибка: лишняя закрывающая скобка
+					return false;
 
 				if (function)
 				{
-					// Добавляем служебные символы для функции
 					result.push(LT::Entry('@', lextable.table[i].sn));
 					result.push(LT::Entry('0' + quantityParm, lextable.table[i].sn));
 					function = false;
@@ -104,44 +133,36 @@ namespace PN
 				}
 				break;
 
-				// Игнорируем другие символы, если попадутся (например, пробелы, если они есть)
 			default:
 				break;
 			}
 		}
 
-		// Выталкиваем оставшиеся операции
 		while (!stk.empty())
 		{
-			if (stk.top().lexema[0] == LEX_LEFTHESIS) return false; // Ошибка скобок
+			if (stk.top().lexema[0] == LEX_LEFTHESIS) return false;
 			result.push(stk.top());
 			stk.pop();
 		}
 
-		// ----------------------------------------------------------------
-		// 2. ЗАПИСЬ РЕЗУЛЬТАТА И ОЧИСТКА МУСОРА
-		// ----------------------------------------------------------------
 
-		int j_current = lextable_pos; // Начинаем перезапись с начала выражения
+		int j_current = lextable_pos;
 
 		while (!result.empty())
 		{
 			LT::Entry entry_ptr = result.front();
 
-			// Перезаписываем лексему
 			lextable.table[j_current] = entry_ptr;
 
 			result.pop();
 			j_current++;
 		}
 
-		// Затираем пробелами всё, что осталось от старого выражения до точки с запятой (i)
-		// Это удаляет лишние скобки, запятые и операнды, которые ушли в ОПЗ
 		for (int j = j_current; j < i; j++)
 		{
-			lextable.table[j] = LT::Entry();     // Обнуляем
-			lextable.table[j].lexema[0] = ' ';   // Ставим пробел (игнорируется при выводе)
-			lextable.table[j].sn = lextable.table[i].sn; // Сохраняем номер строки для красоты
+			lextable.table[j] = LT::Entry();
+			lextable.table[j].lexema[0] = ' ';
+			lextable.table[j].sn = lextable.table[i].sn;
 		}
 
 		return true;
@@ -152,15 +173,18 @@ namespace PN
 		switch (v)
 		{
 		case '(':
-		case ')': return 1;
-		case ',': return 2;
+		case ')': return 0;
 		case '+':
-		case '-': return 3;
+		case '-': return 1;
 		case '*':
 		case '/':
-		case '%': return 4;
-		case '<':
-		case '>': return 0; // Низкий приоритет для сравнения
+		case '%': return 2;
+		case OP_EQUAL_EQUAL:
+		case LEX_EXCLAMATION:
+		case OP_GREATER_EQUAL:
+		case OP_LESS_EQUAL:
+		case LEX_GREATHER:
+		case LEX_LESS: return 3;
 		}
 		return 0;
 	}

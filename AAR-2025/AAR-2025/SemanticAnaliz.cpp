@@ -11,7 +11,7 @@ namespace SM
 		{
 			switch (lextable.table[i].lexema[0])
 			{
-			case LEX_DIRSLASH:
+			case LEX_DIRSLASH: // Проверка возвращаемого значения
 			{
 				if (lextable.table[i + 1].lexema[0] == LEX_LITERAL)
 				{
@@ -22,33 +22,32 @@ namespace SM
 				}
 				break;
 			}
-			case LEX_EQUAL:
+			case LEX_EQUAL:	// Проверка присваивания
 			{
 				if (i && lextable.table[i - 1].idxTI != 0xffff)
 				{
-					IT::IDDATATYPE lefttype = idtable.table[lextable.table[i - 1].idxTI].iddatatype;	// левый операнд
+					IT::IDDATATYPE lefttype = idtable.table[lextable.table[i - 1].idxTI].iddatatype;	
 					bool ignore = false;
 
 					for (int k = i + 1; lextable.table[k].lexema[0] != LEX_SEMICOLON; k++)
 					{
-						if (lextable.table[k].idxTI != LT_TI_NULLIDX) // если ид - проверить совпадение типов
+						if (lextable.table[k].idxTI != LT_TI_NULLIDX) 
 						{
 							if (k + 1 < lextable.size && lextable.table[k + 1].lexema[0] == LEX_LEFTHESIS && idtable.table[lextable.table[k].idxTI].idtype == IT::IDTYPE::F)
 							{
 								ignore = true;
 								continue;
 							}
-							// закрывающая скобка после списка параметров
 							if (ignore && lextable.table[k + 1].lexema[0] == LEX_RIGHTHESIS)
 							{
 								ignore = false;
 								continue;
 							}
 						}
-						if (lefttype == IT::IDDATATYPE::STR) // справа только литерал, ид или вызов строковой ф-ции
+						if (lefttype == IT::IDDATATYPE::STR) 
 						{
 							char l = lextable.table[k].lexema[0];
-							if (l == LEX_PLUS || l == LEX_MINUS || l == LEX_STAR || l == LEX_PECENT || l == LEX_DIRSLASH) // выражения недопустимы
+							if (l == LEX_PLUS || l == LEX_MINUS || l == LEX_STAR || l == LEX_PECENT || l == LEX_DIRSLASH) 
 								ERROR_THROW_IN(702, lextable.table[k].sn, -1);
 						}
 					}
