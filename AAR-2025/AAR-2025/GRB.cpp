@@ -16,6 +16,7 @@ namespace GRB
 				// main функция 
 				{ TS('m'), TS('{'), NS('N'), TS('r'), NS('U'), TS(';'), TS('}'), TS(';'), NS('S') },
 				{ TS('m'), TS('{'), TS('r'), NS('U'), TS(';'), TS('}'), TS(';'), NS('S')},
+				{ TS('m'), TS('{'), NS('N'), TS('}'), TS(';'), NS('S')},
 
 				// Пользовательские функции
 				{ TS('f'),NS('T'), TS('x'), TS('('), NS('F'), TS(')'), TS('{'), NS('N'), TS('r'), NS('U'), TS(';'), TS('}'), TS(';'), NS('S')},
@@ -102,13 +103,13 @@ namespace GRB
 				{ TS('1')},
 
 				// В if-else сложное выражение (4+2) 
-				{ TS('l'), NS('U')},
-				{ TS('x'), NS('U')},
-				{ TS('O'), TS('l')},
-				{ TS('O'), TS('l'), NS('U')},
-			}),
+				{ TS('l'), NS('O'), TS('U')},
+				{ TS('x'), NS('O'), TS('U')},
+			}),	
 			Rule(NS('J'), GRB_ERROR_SERIES + 10, {	// Тело if и if-else
 				{TS(':'), TS('{'), NS('N'), TS('}')},
+				{TS(':'), TS('{'), TS('r'), NS('U'), TS(';'), TS('}')},
+				{TS(':'), TS('{'), TS('r'), NS('U'), TS(';'), TS('}'), TS('e'), TS('{'), NS('N'), TS('}')},
 				{TS(':'), TS('{'), NS('N'), TS('}'), TS('e'), TS('{'), NS('N'), TS('}')},
 			}),
 

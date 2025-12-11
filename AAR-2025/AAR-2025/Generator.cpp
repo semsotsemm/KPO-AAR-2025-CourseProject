@@ -371,8 +371,14 @@ namespace GN
 						name = GetUniqueLiteralName(entry, currentLitIndex);
 					}
 
-					if (entry.idtype == IT::L && entry.iddatatype == IT::STR) code += "\tpush offset " + name + "\n";
-					else code += "\tpush " + name + "\n";
+					if (entry.idtype == IT::L && entry.iddatatype == IT::STR)
+					{
+						code += "\tpush offset " + name + "\n";
+					}
+					else
+					{
+						code += "\tpush " + name + "\n";
+					}
 				}
 			}
 			else if (lex == LEX_PLUS) code += "\tpop ebx\n\tpop eax\n\tadd eax, ebx\n\tpush eax\n";

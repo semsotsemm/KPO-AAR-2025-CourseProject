@@ -161,7 +161,7 @@ namespace Log {
 		WriteLine(log, (char*)"Всего идентификаторов: ", (char*)itsize, (char*)"\n", "");
 
 		const int W_INDEX = 8;
-		const int W_NAME = 12;
+		const int W_NAME = 20;
 		const int W_TYPE = 16;
 		const int W_DATATYPE = 15;
 		const int W_VALUE = 12;

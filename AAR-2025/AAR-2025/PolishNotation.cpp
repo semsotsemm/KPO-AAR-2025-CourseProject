@@ -100,7 +100,14 @@ namespace PN
 			break;
 
 			case LEX_LEFTHESIS:
-				stk.push(lextable.table[i]);
+				if (function)
+				{
+					result.push(lextable.table[i]);
+				}
+				else 
+				{
+					stk.push(lextable.table[i]);
+				}
 				break;
 
 			case LEX_RIGHTHESIS:
@@ -117,15 +124,17 @@ namespace PN
 
 				if (function)
 				{
-					result.push(LT::Entry('@', lextable.table[i].sn));
-					result.push(LT::Entry('0' + quantityParm, lextable.table[i].sn));
+					result.push(LT::Entry(')', lextable.table[i].sn));
 					function = false;
 				}
 				break;
 
 			case LEX_COMMA:
-				if (function)
+				if (function) 
+				{
+					stk.push(lextable.table[i]);
 					quantityParm++;
+				}
 				while (!stk.empty() && stk.top().lexema[0] != LEX_LEFTHESIS)
 				{
 					result.push(stk.top());

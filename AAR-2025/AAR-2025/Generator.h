@@ -5,29 +5,35 @@
 #include <stack>
 #include "PolishNotation.h"
 
-#define BEGIN	".586\n						\
-.model flat, stdcall\n						\
-includelib kernel32.lib\n					\
-includelib libucrt.lib\n					\
-includelib ../Debug/StaticLib.lib\n\n		\
-ExitProcess PROTO : DWORD\n					\
-write_int PROTO C : SDWORD\n				\
-write_str PROTO C : DWORD\n					\
-out_bool PROTO : DWORD\n\n					\
+#define BEGIN	".586\n\
+.model flat, stdcall\n\
+includelib kernel32.lib\n\
+includelib libucrt.lib\n\
+includelib ../Debug/StaticLib.lib\n\n\
+ExitProcess PROTO : DWORD\n\
+write_int PROTO C : DWORD\n\
+write_str PROTO C : DWORD\n\
+out_bool PROTO : DWORD\n\
+lenght PROTO C : DWORD\n\
+copy PROTO C\n\
+powNumber PROTO C \n\
+random PROTO C\n\
+factorialOfNumber PROTO C : DWORD\n\
+squareOfNumber PROTO C : DWORD\n\n\
 .stack 4096\n"
+
 #define DATA_SEG ".data\n"
 #define CODE_SEG ".code\n"
 
 
 namespace GN
 {
-	// Типы областей видимости для генерации меток
 	enum LabelType { L_IF, L_SWITCH, L_CASE, L_DEFAULT };
 
 	struct LabelInfo {
-		int id;			    // Уникальный номер метки
-		LabelType type;     // Тип (IF, SWITCH, CASE)
-		int parentSwitchID; // ID свича, к которому относится кейс (чтобы прыгнуть в конец)
+		int id;
+		LabelType type;
+		int parentSwitchID;
 	};
 
 	void Generate(LT::LexTable& lextable, IT::IdTable& idtable, std::ostream* stream);

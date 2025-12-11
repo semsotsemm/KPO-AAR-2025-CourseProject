@@ -9,8 +9,53 @@
 
 namespace Lexer
 {
+
+    bool IsStandardFunction(std::string name) {
+        return (name == "lenght" || name == "copy" || name == "powNumber" ||
+            name == "random" || name == "factorialOfNumber" ||
+            name == "squareOfNumber" || name == "write_int" || name == "write_str" || name == "out_bool");
+    }
+
+    void RegisterStandardFunctions(IT::IdTable& it)
+    {
+        // Вектор кортежей: {Имя, Тип возвращаемого значения, Количество параметров}
+        std::vector<std::tuple<std::string, IT::IDDATATYPE, int>> std_functions = {
+            {"lenght", IT::INT, 1},             // lenght(string) -> 1
+            {"copy", IT::STR, 3},               // copy(string, int, int) -> 3
+            {"powNumber", IT::INT, 2},          // powNumber(int, int) -> 2
+            {"random", IT::INT, 2},             // random(int, int) -> 2
+            {"factorialOfNumber", IT::INT, 1},  // factorialOfNumber(int) -> 1
+            {"squareOfNumber", IT::INT, 1},     // squareOfNumber(int) -> 1
+            {"write_int", IT::UNDEF, 1},        // write_int(int) -> 1
+            {"write_str", IT::UNDEF, 1},        // write_str(string) -> 1
+            {"out_bool", IT::UNDEF, 1}          // out_bool(bool) -> 1
+        };
+
+        for (const auto& func : std_functions)
+        {
+            IT::Entry entry;
+
+            std::string name = std::get<0>(func);
+            IT::IDDATATYPE returnType = std::get<1>(func);
+            int paramCount = std::get<2>(func);
+
+            strcpy_s(entry.id, name.c_str());
+            entry.idtype = IT::F;
+            entry.iddatatype = returnType;
+            entry.value.vstr.len = 5;   
+            strcpy_s(entry.value.vstr.str, "UNDEF");
+            entry.params.count = paramCount;
+            entry.params.types.clear();
+
+            entry.idxfirstLE = -1;
+
+            IT::Add(it, entry);
+        }
+    }
+
     void Analyze(In::IN& in, LT::LexTable& lt, IT::IdTable& it)
     {
+        RegisterStandardFunctions(it);
         std::map<std::string, char> keywords;
         bool isFunctionDeclaration = false;
         int currentFunctionId = TI_NULLIDX;
@@ -110,14 +155,13 @@ namespace Lexer
 
                     if (identId == TI_NULLIDX)  
                     {
-
                         IT::Entry entry;
                         IT::IDDATATYPE currentType = (IT::IDDATATYPE)currentDataType;
 
                         strcpy_s(entry.id, word.c_str());
                         IT::IDTYPE determinedIdType = IT::V; // По умолчанию - переменная
 
-                        if (isFunctionDeclaration)  // Имя функции
+                        if (isFunctionDeclaration )  // Имя функции
                         {
                             determinedIdType = IT::F;
                             isFunctionDeclaration = false;

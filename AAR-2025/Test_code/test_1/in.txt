@@ -1,82 +1,50 @@
-def int calculate_sum_and_product(param int x, param int y)
+def int print_odd_numbers(param int current)
 {
-    let int sum_val;
-    let int prod_val;
+    let int next_number; 
+    let int check_odd;
+    let int counter = 0;
     
-    sum_val = x + y; 
-    prod_val = x * y % (sum_val);
+    if(current > 50): 
+    {
+        return current; 
+    }
+    else 
+    {
+        check_odd = current % 2; 
 
-    return prod_val; 
+        if(check_odd != 0): 
+        {
+            print current; 
+        }
+        else
+        {
+            counter = counter + 1;
+        }
+
+        next_number = current + 1; 
+
+        print_odd_numbers(next_number);
+    }
+    
+    return current;
 };
 
-def string concatenate_if(param string s1, param string s2, param bool condition)
-{
-    let string result;
-    
-    if(condition):
-    {
-        result = s1; 
-    }
-    else
-    {
-        result = s2;
-    }
-    return result; 
-};
 
 main {
-    let int a;
-    let int b;
-    let string final_str;
-    let int result_int;
-    let bool chec1_true = 1; 
-    let bool chec2_false = 0;
-    let int c;
+    let int start_val;
+    
+    start_val = 0;
 
-    a = 10;
-    b = 5;
+    print '--- Нечетные числа от 0 до 50 ---';
+    
+    print_odd_numbers(start_val); 
+    
+    print '--- Конец списка ---';
 
-    print '--- Тест 1: Вызов функции с возращаемым значением int ---';
-    print 'a+b * b % (a+b):';
-    print calculate_sum_and_product(a, b); 
-    
-    print '--- Тест 2: Вызов функции с возращаемым значением string (внутри проверка bool) ---';
-    print 'Результат должен быть истина:';
-    print concatenate_if('Истина', 'Ложь', chec1_true);
-    
-    print '--- Тест 3: Вызов функции с возращаемым значением string (внутри проверка bool) ---';
-    print 'Результат должен быть ложь:';
-    print concatenate_if('Истина', 'Ложь', chec2_false); 
-    
-    print '--- Тест 4: Проверка if (а == 15) ---';
-    if(a == 15):
-    {
-        print 'Истина';
-    }
-    else
-    {
-        print 'Ложь'; 
-    }
-    
-    print '--- Тест 5: Switch(50) ---';
-    switch(50) 
-    {
-        case 50: 
-        {
-            print 'Успех! это 50';
-        }
-        case a: 
-        {
-            print 'Неверно! это a';
-        }
-        case 5: 
-        {
-            print 'Неверно! это 5';
-        }
-    }
-    
-    print '--- Тест 6: Попытка вывести тип данных bool (false)---';
-    print check_true; 
+    print '--- Возведение 10 в третью степень ---';
+
+    let int dsddsd = powNumber(10, 3);
+    print dsddsd;
 
     return 0;
 };

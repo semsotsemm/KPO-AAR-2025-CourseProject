@@ -1,7 +1,7 @@
 #pragma once
 #include <vector>
 
-#define ID_MAXSIZE 5
+#define ID_MAXSIZE 18
 #define TI_MAXSIZE 4096
 #define TI_INT_DEFAULT 0
 #define TI_NULLIDX 0xffffffff

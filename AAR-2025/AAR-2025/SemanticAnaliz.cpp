@@ -88,8 +88,6 @@ namespace SM
 								IT::IDDATATYPE ctype = idtable.table[lextable.table[j].idxTI].iddatatype;
 								if (paramscount > e.params.count)
 									ERROR_THROW_IN(705, lextable.table[i].sn, -1);
-								if (ctype != e.params.types[paramscount - 1])
-									ERROR_THROW_IN(704, lextable.table[j].sn, lextable.table[j].idxTI);
 							}
 						}
 						if (paramscount != e.params.count)

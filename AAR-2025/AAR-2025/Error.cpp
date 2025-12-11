@@ -2,6 +2,7 @@
 
 namespace Error
 {
+    
     /* 
     серии ошибок:
  	      0 -  99 - системные ошибки
@@ -12,6 +13,7 @@ namespace Error
  		600 - 610 - ошибки на этапе синтаксического анализатора
  		700 - 720 - ошибки на этапе семантического анализатора
     */
+
     ERROR errors[ERROR_MAX_ENTRY] =
     {
         ERROR_ENTRY(0, "Недопустимый код ошибки"),
@@ -33,8 +35,9 @@ namespace Error
             ERROR_ENTRY(110, "Ошибка при открытии файла с исходным кодом (-in)"),
             ERROR_ENTRY(111, "Недопустимый символ в исходном файле (-in)"),
             ERROR_ENTRY(112, "Ошибка при создании файла протокола(-log)"),
+            ERROR_ENTRY(113, "Нет закрывающей кавычки (-in)"),
             
-            ERROR_ENTRY_NODEF(113), ERROR_ENTRY_NODEF(114), ERROR_ENTRY_NODEF(115),
+            ERROR_ENTRY_NODEF(114), ERROR_ENTRY_NODEF(115),
             ERROR_ENTRY_NODEF(116), ERROR_ENTRY_NODEF(117), ERROR_ENTRY_NODEF(118), ERROR_ENTRY_NODEF(119),
 
             ERROR_ENTRY(120, "Превышен допустимый размер при создании таблиццы идентификаторов"),
