@@ -164,7 +164,7 @@ namespace Log {
 		const int W_NAME = 20;
 		const int W_TYPE = 16;
 		const int W_DATATYPE = 15;
-		const int W_VALUE = 12;
+		const int W_VALUE = 5;
 
 		*log.stream << std::left
 			<< std::setw(W_INDEX) << "Индекс"
@@ -193,6 +193,10 @@ namespace Log {
 				*log.stream << entry.value.vint;
 			}
 			else if (entry.iddatatype == IT::STR)
+			{
+				*log.stream << std::left << entry.value.vstr.str;
+			}
+			else if (entry.iddatatype == IT::BOOL)
 			{
 				*log.stream << std::left << entry.value.vstr.str;
 			}

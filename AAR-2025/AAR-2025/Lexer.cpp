@@ -18,17 +18,16 @@ namespace Lexer
 
     void RegisterStandardFunctions(IT::IdTable& it)
     {
-        // Вектор кортежей: {Имя, Тип возвращаемого значения, Количество параметров}
         std::vector<std::tuple<std::string, IT::IDDATATYPE, int>> std_functions = {
-            {"lenght", IT::INT, 1},             // lenght(string) -> 1
-            {"copy", IT::STR, 3},               // copy(string, int, int) -> 3
-            {"powNumber", IT::INT, 2},          // powNumber(int, int) -> 2
-            {"random", IT::INT, 2},             // random(int, int) -> 2
-            {"factorialOfNumber", IT::INT, 1},  // factorialOfNumber(int) -> 1
-            {"squareOfNumber", IT::INT, 1},     // squareOfNumber(int) -> 1
-            {"write_int", IT::UNDEF, 1},        // write_int(int) -> 1
-            {"write_str", IT::UNDEF, 1},        // write_str(string) -> 1
-            {"out_bool", IT::UNDEF, 1}          // out_bool(bool) -> 1
+            {"lenght", IT::INT, 1},             
+            {"copy", IT::STR, 3},               
+            {"powNumber", IT::INT, 2},          
+            {"random", IT::INT, 2},             
+            {"factorialOfNumber", IT::INT, 1},  
+            {"squareOfNumber", IT::INT, 1},     
+            {"write_int", IT::UNDEF, 1},        
+            {"write_str", IT::UNDEF, 1},        
+            {"out_bool", IT::UNDEF, 1}          
         };
 
         for (const auto& func : std_functions)
@@ -42,8 +41,15 @@ namespace Lexer
             strcpy_s(entry.id, name.c_str());
             entry.idtype = IT::F;
             entry.iddatatype = returnType;
-            entry.value.vstr.len = 5;   
-            strcpy_s(entry.value.vstr.str, "UNDEF");
+            if (entry.iddatatype == IT::INT)
+            {
+                entry.value.vint = 0;
+            }
+            else
+            {
+                entry.value.vstr.len = 5;
+                strcpy_s(entry.value.vstr.str, "UNDEF");
+            }
             entry.params.count = paramCount;
             entry.params.types.clear();
 
@@ -124,7 +130,7 @@ namespace Lexer
                         currentDataType = IT::IDDATATYPE::STR;
                     }
                     else if (word == "bool")
-                    {
+                    {   
                         currentDataType = IT::IDDATATYPE::BOOL;
                     }
                     else if (word == "def")
@@ -152,7 +158,6 @@ namespace Lexer
 
                     int identId = IT::IsId(it, (char*)word.c_str()); // Использовался ли ранее
 
-
                     if (identId == TI_NULLIDX)  
                     {
                         IT::Entry entry;
@@ -177,7 +182,25 @@ namespace Lexer
 
                         entry.idtype = determinedIdType;
                         entry.iddatatype = currentType;
-                        entry.value.vint = TI_INT_DEFAULT;  
+                        if (currentType == IT::STR)
+                        {
+                            entry.value.vstr.len = 4;
+                            strcpy_s(entry.value.vstr.str, TI_STR_DEFAULT);
+                        }
+                        else if (currentType == IT::INT)
+                        {
+                            entry.value.vint = TI_INT_DEFAULT;
+                        }
+                        else if (currentType == IT::BOOL)
+                        {
+                            entry.value.vstr.len = 5;
+                            strcpy_s(entry.value.vstr.str, "UNDEF");
+                        }
+                        else
+                        {
+                            entry.value.vstr.len = 5;
+                            strcpy_s(entry.value.vstr.str, "UNDEF");
+                        }
                         entry.idxfirstLE = lt.size + 1;     // Новый номер лексемы
 
                         IT::Add(it, entry);
@@ -197,6 +220,12 @@ namespace Lexer
                             it.table[currentFunctionId] = funcEntry;
                         }
                         currentDataType = IT::UNDEF;
+                    }
+                    else if (lt.table[lt.size - 2].lexema[0] == LEX_LET || 
+                        lt.table[lt.size - 2].lexema[0] == LEX_FUNCTION ||
+                        lt.table[lt.size - 2].lexema[0] == LEX_PARAM)
+                    {
+                        ERROR_THROW(206);
                     }
 
                     LT::Entry lexEntry = { LEX_ID, line, identId }; 
@@ -219,7 +248,11 @@ namespace Lexer
 
                 int literal = std::stoi(number);
 
-                if (literal > INT_MAX)
+                if (literal > 32767)
+                {
+                    ERROR_THROW(201);
+                }
+                if (literal < -32767)
                 {
                     ERROR_THROW(201);
                 }

@@ -15,6 +15,8 @@ namespace Parm {
 		wchar_t in[PARM_MAX_SIZE];
 		wchar_t log[PARM_MAX_SIZE];
 		wchar_t out[PARM_MAX_SIZE];
+		wchar_t table[PARM_MAX_SIZE];
+		wchar_t synt_analysis[PARM_MAX_SIZE];
 	};
 
 	PARM getparm(int argc, wchar_t* argv[]);

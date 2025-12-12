@@ -2,6 +2,7 @@
 #include "Error.h"
 
 #include <cwchar>
+#include <iostream>
 
 namespace Parm
 {
@@ -12,6 +13,7 @@ namespace Parm
 		parm.in[0] = L'\0';
 		parm.log[0] = L'\0';
 		parm.out[0] = L'\0';
+		parm.table[0] = L'\0';
 
 		for (int i = 1; i < argc; i++)
 		{
@@ -71,6 +73,13 @@ namespace Parm
 			}
 			wcsncat_s(parm.out, PARM_MAX_SIZE, L".asm", 4);
 		}
+		wcscpy_s(parm.table, parm.in);
+		wchar_t* last_slash = wcsrchr(parm.table, L'\\');
+		if (last_slash != nullptr)
+		{
+			*last_slash = L'\0';
+		}
+		wcsncat_s(parm.table, PARM_MAX_SIZE, L"\\it_lt_table.txt", 21);
 		return parm;
 	}
 }

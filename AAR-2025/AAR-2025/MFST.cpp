@@ -71,17 +71,17 @@ namespace MFST
 					GRB::Rule::Chain chain;
 					if ((nrulechain = rule.getNextChain(lenta[lenta_position], chain, nrulechain + 1)) >= 0)
 					{
-						MFST_TRACE1
-							savestate();
-						MFST_TRACE6("SAVESTATE", storestate.size());
+						// MFST_TRACE1
+						savestate();
+						// MFST_TRACE6("SAVESTATE", storestate.size());
 						st.pop();
 						push_chain(chain);
 						rc = NS_OK;
-						MFST_TRACE2
+						// MFST_TRACE2
 					}
 					else
 					{
-						MFST_TRACE4("TNS_NORULECHAIN/NS_NORULE")
+						// MFST_TRACE4("TNS_NORULECHAIN/NS_NORULE")
 							savediagnosis(NS_NORULECHAIN);
 						rc = reststate() ? NS_NORULECHAIN : NS_NORULE;
 					};
@@ -97,18 +97,18 @@ namespace MFST
 				st.pop();
 				nrulechain = -1;
 				rc = TS_OK;
-				MFST_TRACE3
+				// MFST_TRACE3
 			}
 			else
 			{
-				MFST_TRACE4("TS_NOK/NS_NORULECHAIN")
-					rc = reststate() ? TS_NOK : NS_NORULECHAIN;
+				// MFST_TRACE4("TS_NOK/NS_NORULECHAIN")
+				rc = reststate() ? TS_NOK : NS_NORULECHAIN;
 			};
 		}
 		else
 		{
 			rc = LENTA_END;
-			MFST_TRACE4("LENTA_END")
+			// MFST_TRACE4("LENTA_END")
 		};
 		return rc;
 	};
@@ -140,8 +140,7 @@ namespace MFST
 			nrule = state.nrule;
 			nrulechain = state.nrulechain;
 			storestate.pop();
-			MFST_TRACE5("RESSTATE")
-				MFST_TRACE2
+			// MFST_TRACE5("RESSTATE") MFST_TRACE2
 		};
 		return rc;
 	};
@@ -178,23 +177,32 @@ namespace MFST
 
 		switch (rc_step)
 		{
-		case LENTA_END:		MFST_TRACE4("--------> LENTA_END")
+		case LENTA_END:	
+			/*
+			MFST_TRACE4("--------> LENTA_END")
 			std::cout << "------------------------------------------------------------" << std::endl;
 			sprintf_s(buf, MFST_DIAGN_MAXSIZE, "%d: всего строк %d, синтаксический анализ выполнен без ошибок", 0, lenta_size);
 			std::cout << std::setw(4) << std::left << 0 << ": всего строк" << lenta_size << ", синтаксический анализ выполнен без ошибок" << std::endl;
+			*/
 			rc = true;
 			break;
-		case NS_NORULE:		MFST_TRACE4("------->NS_NORULE")
+		case NS_NORULE:		
+			/*
+			MFST_TRACE4("------->NS_NORULE")
 			std::cout << "------------------------------------------------------------" << std::endl;
 			std::cout << getDiagnosis(0, buf) << std::endl;
 			std::cout << getDiagnosis(1, buf) << std::endl;
 			std::cout << getDiagnosis(2, buf) << std::endl;
+			*/
 			break;
-		case NS_NORULECHAIN:	MFST_TRACE4("-------->NS_NORULECHAIN")
+		case NS_NORULECHAIN:
+			// MFST_TRACE4("-------->NS_NORULECHAIN")
 			break;
-		case NS_ERROR:			MFST_TRACE4("-------->NS_ERROR")
+		case NS_ERROR:
+			// MFST_TRACE4("-------->NS_ERROR")
 			break;
-		case SURPRISE:			MFST_TRACE4("-------->SURPRISE")
+		case SURPRISE:
+			// MFST_TRACE4("-------->SURPRISE")
 			break;
 		};
 		return rc;
@@ -244,7 +252,7 @@ namespace MFST
 		{
 			state = storestate.c[k];
 			rule = grebach.getRule(state.nrule);
-			MFST_TRACE7
+			// MFST_TRACE7
 		}
 	}
 

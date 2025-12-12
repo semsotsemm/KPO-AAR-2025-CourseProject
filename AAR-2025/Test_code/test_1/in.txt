@@ -1,50 +1,6 @@
-def int print_odd_numbers(param int current)
-{
-    let int next_number; 
-    let int check_odd;
-    let int counter = 0;
-    
-    if(current > 50): 
-    {
-        return current; 
-    }
-    else 
-    {
-        check_odd = current % 2; 
-
-        if(check_odd != 0): 
-        {
-            print current; 
-        }
-        else
-        {
-            counter = counter + 1;
-        }
-
-        next_number = current + 1; 
-
-        print_odd_numbers(next_number);
-    }
-    
-    return current;
-};
-
-
 main {
-    let int start_val;
-    
-    start_val = 0;
-
-    print '--- Нечетные числа от 0 до 50 ---';
-    
-    print_odd_numbers(start_val); 
-    
-    print '--- Конец списка ---';
-
-    print '--- Возведение 10 в третью степень ---';
-
-    let int dsddsd = powNumber(10, 3);
-    print dsddsd;
-
-    return 0;
+    let string a;
+    let int b = 5;
+    let bool c;
+    print b;
 };

@@ -40,25 +40,26 @@ namespace Error
             ERROR_ENTRY_NODEF(114), ERROR_ENTRY_NODEF(115),
             ERROR_ENTRY_NODEF(116), ERROR_ENTRY_NODEF(117), ERROR_ENTRY_NODEF(118), ERROR_ENTRY_NODEF(119),
 
-            ERROR_ENTRY(120, "Превышен допустимый размер при создании таблиццы идентификаторов"),
-            ERROR_ENTRY(121, "Превышен допустимый размер при создании таблиццы лексем"),
-            ERROR_ENTRY(122, "Переполнение таблиццы лексем"),
-            ERROR_ENTRY(123, "Переполнение таблиццы лексем"),
-            ERROR_ENTRY(124, "Переданный индекс выходит за границы допустимых значений таблиццы лексем"),
-            ERROR_ENTRY(125, "Переданный индекс выходит за границы допустимых значений таблиццы лексем"),
+            ERROR_ENTRY(120, "Превышен допустимый размер при создании таблицы идентификаторов"),
+            ERROR_ENTRY(121, "Превышен допустимый размер при создании таблицы лексем"),
+            ERROR_ENTRY(122, "Переполнение таблицы идентификаторов"),
+            ERROR_ENTRY(123, "Переполнение таблицы лексем"),
+            ERROR_ENTRY(124, "Переданный индекс выходит за границы допустимых значений таблицы идентификаторов"),
+            ERROR_ENTRY(125, "Переданный индекс выходит за границы допустимых значений таблицы лексем"),
             
             ERROR_ENTRY_NODEF(126), ERROR_ENTRY_NODEF(127), ERROR_ENTRY_NODEF(128), ERROR_ENTRY_NODEF(129),
             ERROR_ENTRY_NODEF10(130), ERROR_ENTRY_NODEF10(140), ERROR_ENTRY_NODEF10(150),
             ERROR_ENTRY_NODEF10(160), ERROR_ENTRY_NODEF10(170), ERROR_ENTRY_NODEF10(180), ERROR_ENTRY_NODEF10(190),
             ERROR_ENTRY_NODEF(200),
             
-            ERROR_ENTRY(201, "Числовой литерал превышает максимальное значение (65535)"),
+            ERROR_ENTRY(201, "Числовой литерал превышает максимальное или минимальное значение"),
             ERROR_ENTRY(202, "Строковый литерал превышает максимальную длину"),
             ERROR_ENTRY(203, "Незакрытый строковый литерал"),
             ERROR_ENTRY(204, "Ожидалась ' (одинарная кавычка) для строкового литерала"),
             ERROR_ENTRY(205, "Незвестный символ"),
+            ERROR_ENTRY(206, "Имя индетификатора использовалось ранее"),
             
-            ERROR_ENTRY_NODEF(206), ERROR_ENTRY_NODEF(207), ERROR_ENTRY_NODEF(208), ERROR_ENTRY_NODEF(209),
+            ERROR_ENTRY_NODEF(207), ERROR_ENTRY_NODEF(208), ERROR_ENTRY_NODEF(209),
             ERROR_ENTRY_NODEF10(210), ERROR_ENTRY_NODEF10(220), ERROR_ENTRY_NODEF10(230), ERROR_ENTRY_NODEF10(240),
             ERROR_ENTRY_NODEF10(250), ERROR_ENTRY_NODEF10(260), ERROR_ENTRY_NODEF10(270), ERROR_ENTRY_NODEF10(280),
             ERROR_ENTRY_NODEF10(290), ERROR_ENTRY_NODEF100(300), ERROR_ENTRY_NODEF100(400), ERROR_ENTRY_NODEF100(500),
@@ -78,7 +79,6 @@ namespace Error
             ERROR_ENTRY(612, "Ошибка при инициализации переменной"),
             ERROR_ENTRY(613, "Ошибка в switch-case"),
             
-
             ERROR_ENTRY_NODEF(614), ERROR_ENTRY_NODEF(615),ERROR_ENTRY_NODEF(616), ERROR_ENTRY_NODEF(617), 
             ERROR_ENTRY_NODEF(618),ERROR_ENTRY_NODEF(619), ERROR_ENTRY_NODEF10(620),ERROR_ENTRY_NODEF10(630),
             ERROR_ENTRY_NODEF10(640),ERROR_ENTRY_NODEF10(650), ERROR_ENTRY_NODEF10(660),ERROR_ENTRY_NODEF10(670),
@@ -86,16 +86,18 @@ namespace Error
 
             ERROR_ENTRY(700, "Ошибочное деление на 0"),
             ERROR_ENTRY(701, "Типы данных в выражении не совпадают"),
-            ERROR_ENTRY_NODEF(702),
+            ERROR_ENTRY(702, "Тип данных присваемого значения не совпадет с типом данных переменной"),
             ERROR_ENTRY(703, "Тип функции и возвращаемое значение не совпадают"),
             ERROR_ENTRY(704, "Несовпадение типов передаваемых параметров"),
             ERROR_ENTRY(705, "Количество ожидаемых функцией и передаваемых параметров не совпадают"),
-            ERROR_ENTRY_NODEF(706),
-
-            ERROR_ENTRY_NODEF(707), ERROR_ENTRY_NODEF(708), ERROR_ENTRY_NODEF(709),
-            ERROR_ENTRY_NODEF10(710), ERROR_ENTRY_NODEF10(720), ERROR_ENTRY_NODEF10(730), ERROR_ENTRY_NODEF10(740), ERROR_ENTRY_NODEF10(750),
-            ERROR_ENTRY_NODEF10(760), ERROR_ENTRY_NODEF10(770), ERROR_ENTRY_NODEF10(780), ERROR_ENTRY_NODEF10(790),
-            ERROR_ENTRY_NODEF100(800), ERROR_ENTRY_NODEF100(900)
+            ERROR_ENTRY(706, "Невозможно выполнять математические операции над строкой"),
+            ERROR_ENTRY(707, "Строковый тип данных не может быть отрицательный"),
+            ERROR_ENTRY(708, "Логический тип данных не может быть отрицательный"),
+            ERROR_ENTRY(709, "Использована неицилизированная переменная"),
+            
+            ERROR_ENTRY_NODEF10(710), ERROR_ENTRY_NODEF10(720), ERROR_ENTRY_NODEF10(730), 
+            ERROR_ENTRY_NODEF10(740), ERROR_ENTRY_NODEF10(750), ERROR_ENTRY_NODEF10(760), ERROR_ENTRY_NODEF10(770), 
+            ERROR_ENTRY_NODEF10(780), ERROR_ENTRY_NODEF10(790), ERROR_ENTRY_NODEF100(800), ERROR_ENTRY_NODEF100(900)
     };
 
     ERROR  geterror(int  id)

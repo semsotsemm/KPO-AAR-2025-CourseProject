@@ -1,6 +1,6 @@
-﻿  Log.cpp
+﻿  SemanticAnaliz.cpp
 C:\Users\user\work_space\Laboratory_work\KPO_3SEM\KPO-AAR-2025-CourseProject\AAR-2025\AAR-2025\Error.h(17,9): warning C4005: ERROR_ENTRY_NODEF100: изменение макроопределения
-  (компиляция исходного файла "Log.cpp")
+  (компиляция исходного файла "SemanticAnaliz.cpp")
       C:\Users\user\work_space\Laboratory_work\KPO_3SEM\KPO-AAR-2025-CourseProject\AAR-2025\AAR-2025\Error.h(15,9):
       см. предыдущее определение "ERROR_ENTRY_NODEF100"
   

@@ -3,7 +3,8 @@
 
 #define ID_MAXSIZE 18
 #define TI_MAXSIZE 4096
-#define TI_INT_DEFAULT 0
+#define TI_INT_DEFAULT -32768
+#define TI_STR_DEFAULT "UNDEF"
 #define TI_NULLIDX 0xffffffff
 #define TI_STR_MAXSIZE 255
 
