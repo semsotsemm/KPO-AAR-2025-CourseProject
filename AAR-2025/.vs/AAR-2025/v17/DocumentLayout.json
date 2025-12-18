@@ -1,0 +1,1161 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\AAR-2025\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8D0B3F58-A6FB-4D79-A4AD-98DC4A8D8E9A}|ASM\\ASM.vcxproj|C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\Files\\in.txt.asm||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51CD739C-23C9-42E3-A293-FF672E64FB30}|AAR-2025\\AAR-2025.vcxproj|C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\Files\\in.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51CD739C-23C9-42E3-A293-FF672E64FB30}|AAR-2025\\AAR-2025.vcxproj|C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\Files\\in.txt.log||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51CD739C-23C9-42E3-A293-FF672E64FB30}|AAR-2025\\AAR-2025.vcxproj|C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\AAR-2025\\AAR-2025\\GRB.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{51CD739C-23C9-42E3-A293-FF672E64FB30}|AAR-2025\\AAR-2025.vcxproj|solutionrelative:AAR-2025\\GRB.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51CD739C-23C9-42E3-A293-FF672E64FB30}|AAR-2025\\AAR-2025.vcxproj|C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\AAR-2025\\AAR-2025\\LT.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{51CD739C-23C9-42E3-A293-FF672E64FB30}|AAR-2025\\AAR-2025.vcxproj|solutionrelative:AAR-2025\\LT.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51CD739C-23C9-42E3-A293-FF672E64FB30}|AAR-2025\\AAR-2025.vcxproj|C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\AAR-2025\\AAR-2025\\Log.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{51CD739C-23C9-42E3-A293-FF672E64FB30}|AAR-2025\\AAR-2025.vcxproj|solutionrelative:AAR-2025\\Log.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51CD739C-23C9-42E3-A293-FF672E64FB30}|AAR-2025\\AAR-2025.vcxproj|C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\AAR-2025\\AAR-2025\\Generation.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{51CD739C-23C9-42E3-A293-FF672E64FB30}|AAR-2025\\AAR-2025.vcxproj|solutionrelative:AAR-2025\\Generation.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51CD739C-23C9-42E3-A293-FF672E64FB30}|AAR-2025\\AAR-2025.vcxproj|C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\AAR-2025\\AAR-2025\\MFST.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{51CD739C-23C9-42E3-A293-FF672E64FB30}|AAR-2025\\AAR-2025.vcxproj|solutionrelative:AAR-2025\\MFST.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51CD739C-23C9-42E3-A293-FF672E64FB30}|AAR-2025\\AAR-2025.vcxproj|C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\AAR-2025\\AAR-2025\\AAR-2025.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{51CD739C-23C9-42E3-A293-FF672E64FB30}|AAR-2025\\AAR-2025.vcxproj|solutionrelative:AAR-2025\\AAR-2025.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51CD739C-23C9-42E3-A293-FF672E64FB30}|AAR-2025\\AAR-2025.vcxproj|C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\AAR-2025\\AAR-2025\\SemanticAnaliz.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{51CD739C-23C9-42E3-A293-FF672E64FB30}|AAR-2025\\AAR-2025.vcxproj|solutionrelative:AAR-2025\\SemanticAnaliz.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51CD739C-23C9-42E3-A293-FF672E64FB30}|AAR-2025\\AAR-2025.vcxproj|C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\AAR-2025\\AAR-2025\\Generation.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{51CD739C-23C9-42E3-A293-FF672E64FB30}|AAR-2025\\AAR-2025.vcxproj|solutionrelative:AAR-2025\\Generation.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51CD739C-23C9-42E3-A293-FF672E64FB30}|AAR-2025\\AAR-2025.vcxproj|C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\AAR-2025\\AAR-2025\\Error.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{51CD739C-23C9-42E3-A293-FF672E64FB30}|AAR-2025\\AAR-2025.vcxproj|solutionrelative:AAR-2025\\Error.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51CD739C-23C9-42E3-A293-FF672E64FB30}|AAR-2025\\AAR-2025.vcxproj|C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\AAR-2025\\AAR-2025\\Error.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{51CD739C-23C9-42E3-A293-FF672E64FB30}|AAR-2025\\AAR-2025.vcxproj|solutionrelative:AAR-2025\\Error.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51CD739C-23C9-42E3-A293-FF672E64FB30}|AAR-2025\\AAR-2025.vcxproj|C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\Files\\inTable.id.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51CD739C-23C9-42E3-A293-FF672E64FB30}|AAR-2025\\AAR-2025.vcxproj|C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\AAR-2025\\AAR-2025\\In.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{51CD739C-23C9-42E3-A293-FF672E64FB30}|AAR-2025\\AAR-2025.vcxproj|solutionrelative:AAR-2025\\In.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51CD739C-23C9-42E3-A293-FF672E64FB30}|AAR-2025\\AAR-2025.vcxproj|C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\AAR-2025\\AAR-2025\\LexAnalysis.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{51CD739C-23C9-42E3-A293-FF672E64FB30}|AAR-2025\\AAR-2025.vcxproj|solutionrelative:AAR-2025\\LexAnalysis.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51CD739C-23C9-42E3-A293-FF672E64FB30}|AAR-2025\\AAR-2025.vcxproj|C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\AAR-2025\\AAR-2025\\graphs.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{51CD739C-23C9-42E3-A293-FF672E64FB30}|AAR-2025\\AAR-2025.vcxproj|solutionrelative:AAR-2025\\graphs.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51CD739C-23C9-42E3-A293-FF672E64FB30}|AAR-2025\\AAR-2025.vcxproj|C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\AAR-2025\\AAR-2025\\IT.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{51CD739C-23C9-42E3-A293-FF672E64FB30}|AAR-2025\\AAR-2025.vcxproj|solutionrelative:AAR-2025\\IT.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51CD739C-23C9-42E3-A293-FF672E64FB30}|AAR-2025\\AAR-2025.vcxproj|C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\AAR-2025\\AAR-2025\\LexAnalysis.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{51CD739C-23C9-42E3-A293-FF672E64FB30}|AAR-2025\\AAR-2025.vcxproj|solutionrelative:AAR-2025\\LexAnalysis.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6D1C747-4C23-497B-A2D6-F970FBC58A36}|StaticLib\\StaticLib.vcxproj|C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\AAR-2025\\StaticLib\\StandartFunc.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E6D1C747-4C23-497B-A2D6-F970FBC58A36}|StaticLib\\StaticLib.vcxproj|solutionrelative:StaticLib\\StandartFunc.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51CD739C-23C9-42E3-A293-FF672E64FB30}|AAR-2025\\AAR-2025.vcxproj|C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\AAR-2025\\AAR-2025\\IT.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{51CD739C-23C9-42E3-A293-FF672E64FB30}|AAR-2025\\AAR-2025.vcxproj|solutionrelative:AAR-2025\\IT.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51CD739C-23C9-42E3-A293-FF672E64FB30}|AAR-2025\\AAR-2025.vcxproj|C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\AAR-2025\\AAR-2025\\In.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{51CD739C-23C9-42E3-A293-FF672E64FB30}|AAR-2025\\AAR-2025.vcxproj|solutionrelative:AAR-2025\\In.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51CD739C-23C9-42E3-A293-FF672E64FB30}|AAR-2025\\AAR-2025.vcxproj|C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\AAR-2025\\AAR-2025\\FST.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{51CD739C-23C9-42E3-A293-FF672E64FB30}|AAR-2025\\AAR-2025.vcxproj|solutionrelative:AAR-2025\\FST.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51CD739C-23C9-42E3-A293-FF672E64FB30}|AAR-2025\\AAR-2025.vcxproj|C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\AAR-2025\\AAR-2025\\FST.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{51CD739C-23C9-42E3-A293-FF672E64FB30}|AAR-2025\\AAR-2025.vcxproj|solutionrelative:AAR-2025\\FST.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51CD739C-23C9-42E3-A293-FF672E64FB30}|AAR-2025\\AAR-2025.vcxproj|C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\AAR-2025\\AAR-2025\\PolishNotation.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{51CD739C-23C9-42E3-A293-FF672E64FB30}|AAR-2025\\AAR-2025.vcxproj|solutionrelative:AAR-2025\\PolishNotation.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51CD739C-23C9-42E3-A293-FF672E64FB30}|AAR-2025\\AAR-2025.vcxproj|C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\AAR-2025\\AAR-2025\\Out.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{51CD739C-23C9-42E3-A293-FF672E64FB30}|AAR-2025\\AAR-2025.vcxproj|solutionrelative:AAR-2025\\Out.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51CD739C-23C9-42E3-A293-FF672E64FB30}|AAR-2025\\AAR-2025.vcxproj|C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\AAR-2025\\AAR-2025\\LT.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{51CD739C-23C9-42E3-A293-FF672E64FB30}|AAR-2025\\AAR-2025.vcxproj|solutionrelative:AAR-2025\\LT.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51CD739C-23C9-42E3-A293-FF672E64FB30}|AAR-2025\\AAR-2025.vcxproj|C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\AAR-2025\\AAR-2025\\Log.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{51CD739C-23C9-42E3-A293-FF672E64FB30}|AAR-2025\\AAR-2025.vcxproj|solutionrelative:AAR-2025\\Log.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51CD739C-23C9-42E3-A293-FF672E64FB30}|AAR-2025\\AAR-2025.vcxproj|C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\AAR-2025\\AAR-2025\\GRB.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{51CD739C-23C9-42E3-A293-FF672E64FB30}|AAR-2025\\AAR-2025.vcxproj|solutionrelative:AAR-2025\\GRB.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51CD739C-23C9-42E3-A293-FF672E64FB30}|AAR-2025\\AAR-2025.vcxproj|C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\AAR-2025\\AAR-2025\\MFST.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{51CD739C-23C9-42E3-A293-FF672E64FB30}|AAR-2025\\AAR-2025.vcxproj|solutionrelative:AAR-2025\\MFST.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51CD739C-23C9-42E3-A293-FF672E64FB30}|AAR-2025\\AAR-2025.vcxproj|C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\AAR-2025\\AAR-2025\\Out.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{51CD739C-23C9-42E3-A293-FF672E64FB30}|AAR-2025\\AAR-2025.vcxproj|solutionrelative:AAR-2025\\Out.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51CD739C-23C9-42E3-A293-FF672E64FB30}|AAR-2025\\AAR-2025.vcxproj|C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\AAR-2025\\AAR-2025\\Parm.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{51CD739C-23C9-42E3-A293-FF672E64FB30}|AAR-2025\\AAR-2025.vcxproj|solutionrelative:AAR-2025\\Parm.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51CD739C-23C9-42E3-A293-FF672E64FB30}|AAR-2025\\AAR-2025.vcxproj|C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\AAR-2025\\AAR-2025\\PolishNotation.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{51CD739C-23C9-42E3-A293-FF672E64FB30}|AAR-2025\\AAR-2025.vcxproj|solutionrelative:AAR-2025\\PolishNotation.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51CD739C-23C9-42E3-A293-FF672E64FB30}|AAR-2025\\AAR-2025.vcxproj|C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\AAR-2025\\AAR-2025\\SemanticAnaliz.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{51CD739C-23C9-42E3-A293-FF672E64FB30}|AAR-2025\\AAR-2025.vcxproj|solutionrelative:AAR-2025\\SemanticAnaliz.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51CD739C-23C9-42E3-A293-FF672E64FB30}|AAR-2025\\AAR-2025.vcxproj|C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\AAR-2025\\AAR-2025\\stdafx.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{51CD739C-23C9-42E3-A293-FF672E64FB30}|AAR-2025\\AAR-2025.vcxproj|solutionrelative:AAR-2025\\stdafx.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51CD739C-23C9-42E3-A293-FF672E64FB30}|AAR-2025\\AAR-2025.vcxproj|C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\AAR-2025\\AAR-2025\\Parm.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{51CD739C-23C9-42E3-A293-FF672E64FB30}|AAR-2025\\AAR-2025.vcxproj|solutionrelative:AAR-2025\\Parm.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51CD739C-23C9-42E3-A293-FF672E64FB30}|AAR-2025\\AAR-2025.vcxproj|C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\Files\\inTable.lex.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\AAR-2025\\KAD-2022\\AAR-2025.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:KAD-2022\\AAR-2025.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\work_space\\Laboratory_work\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\LT.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files (x86)\\Windows Kits\\10\\Source\\10.0.22000.0\\ucrt\\string\\i386\\strcat.asm||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\studing\\\u0410\u0440\u0445\u0438\u0432\\3 sem\\\u0427\u0443\u0436\u0438\u0435 \u041A\u0420 \u043F\u043E \u0442\u0440\u0430\u043D\u0441\u043B\u044F\u0442\u043E\u0440\u0443\\\u041A\u0443\u0440\u0441\u043E\u0432\u043E\u0439_3\\GAA-2020\\ASM\\ASM.asm||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\work_space\\Laboratory_work\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\IT.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\work_space\\Laboratory_work\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\Parm.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\work_space\\Laboratory_work\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\PolishNotation.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\work_space\\Laboratory_work\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\SemanticAnaliz.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\work_space\\Laboratory_work\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\stdafx.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\work_space\\Laboratory_work\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\AAR-2025.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\work_space\\Laboratory_work\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\IT.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\work_space\\Laboratory_work\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\PolishNotation.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\work_space\\Laboratory_work\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\Parm.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\work_space\\Laboratory_work\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\LexAnalysis.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\work_space\\Laboratory_work\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\Out.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\work_space\\Laboratory_work\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\MFST.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\work_space\\Laboratory_work\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\Log.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\work_space\\Laboratory_work\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\LexAnalysis.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\work_space\\Laboratory_work\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\In.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\work_space\\Laboratory_work\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\GRB.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\work_space\\Laboratory_work\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\graphs.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\work_space\\Laboratory_work\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\Generation.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\work_space\\Laboratory_work\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\FST.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\work_space\\Laboratory_work\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\Error.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\work_space\\Laboratory_work\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\SemanticAnaliz.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\work_space\\Laboratory_work\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\Out.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\work_space\\Laboratory_work\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\MFST.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\work_space\\Laboratory_work\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\LT.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\work_space\\Laboratory_work\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\Log.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\work_space\\Laboratory_work\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\In.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\work_space\\Laboratory_work\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\GRB.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\work_space\\Laboratory_work\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\Generation.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\work_space\\Laboratory_work\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\FST.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\work_space\\Laboratory_work\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\Error.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\AAR-2025\\KAD-2022\\In.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:KAD-2022\\In.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 425,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GRB.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\AAR-2025\\AAR-2025\\GRB.cpp",
+              "RelativeDocumentMoniker": "AAR-2025\\GRB.cpp",
+              "ToolTip": "C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\AAR-2025\\AAR-2025\\GRB.cpp",
+              "RelativeToolTip": "AAR-2025\\GRB.cpp",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-13T22:25:24.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "in.txt",
+              "DocumentMoniker": "C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\Files\\in.txt",
+              "RelativeDocumentMoniker": "..\\Files\\in.txt",
+              "ToolTip": "C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\Files\\in.txt",
+              "RelativeToolTip": "..\\Files\\in.txt",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAUwFkAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-12-14T22:34:49.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "in.txt.log",
+              "DocumentMoniker": "C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\Files\\in.txt.log",
+              "RelativeDocumentMoniker": "..\\Files\\in.txt.log",
+              "ToolTip": "C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\Files\\in.txt.log",
+              "RelativeToolTip": "..\\Files\\in.txt.log",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAANUPAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-13T20:59:02.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MFST.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\AAR-2025\\AAR-2025\\MFST.cpp",
+              "RelativeDocumentMoniker": "AAR-2025\\MFST.cpp",
+              "ToolTip": "C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\AAR-2025\\AAR-2025\\MFST.cpp",
+              "RelativeToolTip": "AAR-2025\\MFST.cpp",
+              "ViewState": "AgIAAL8AAAAAAAAAAAASwLoAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-13T21:38:18.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AAR-2025.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\AAR-2025\\AAR-2025\\AAR-2025.cpp",
+              "RelativeDocumentMoniker": "AAR-2025\\AAR-2025.cpp",
+              "ToolTip": "C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\AAR-2025\\AAR-2025\\AAR-2025.cpp",
+              "RelativeToolTip": "AAR-2025\\AAR-2025.cpp",
+              "ViewState": "AgIAABwAAAAAAAAAAAAwwC4AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-13T20:42:34.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "LexAnalysis.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\AAR-2025\\AAR-2025\\LexAnalysis.cpp",
+              "RelativeDocumentMoniker": "AAR-2025\\LexAnalysis.cpp",
+              "ToolTip": "C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\AAR-2025\\AAR-2025\\LexAnalysis.cpp",
+              "RelativeToolTip": "AAR-2025\\LexAnalysis.cpp",
+              "ViewState": "AgIAAJ4BAAAAAAAAAAAAAKsBAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-13T21:06:23.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "StandartFunc.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\AAR-2025\\StaticLib\\StandartFunc.cpp",
+              "RelativeDocumentMoniker": "StaticLib\\StandartFunc.cpp",
+              "ToolTip": "C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\AAR-2025\\StaticLib\\StandartFunc.cpp",
+              "RelativeToolTip": "StaticLib\\StandartFunc.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-13T01:34:56.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Error.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\AAR-2025\\AAR-2025\\Error.cpp",
+              "RelativeDocumentMoniker": "AAR-2025\\Error.cpp",
+              "ToolTip": "C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\AAR-2025\\AAR-2025\\Error.cpp",
+              "RelativeToolTip": "AAR-2025\\Error.cpp",
+              "ViewState": "AgIAAEgAAAAAAAAAAAASwFMAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-14T00:24:19.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Generation.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\AAR-2025\\AAR-2025\\Generation.cpp",
+              "RelativeDocumentMoniker": "AAR-2025\\Generation.cpp",
+              "ToolTip": "C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\AAR-2025\\AAR-2025\\Generation.cpp",
+              "RelativeToolTip": "AAR-2025\\Generation.cpp",
+              "ViewState": "AgIAAJIAAAAAAAAAAAAAALkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-13T20:50:10.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "in.txt.asm",
+              "DocumentMoniker": "C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\Files\\in.txt.asm",
+              "RelativeDocumentMoniker": "..\\Files\\in.txt.asm",
+              "ToolTip": "C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\Files\\in.txt.asm",
+              "RelativeToolTip": "..\\Files\\in.txt.asm",
+              "ViewState": "AgIAAPoBAAAAAAAAAAAAAAACAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-13T02:07:48.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Error.h",
+              "DocumentMoniker": "C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\AAR-2025\\AAR-2025\\Error.h",
+              "RelativeDocumentMoniker": "AAR-2025\\Error.h",
+              "ToolTip": "C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\AAR-2025\\AAR-2025\\Error.h",
+              "RelativeToolTip": "AAR-2025\\Error.h",
+              "ViewState": "AgIAABEAAAAAAAAAAAAqwCIAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-14T13:54:07.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Generation.h",
+              "DocumentMoniker": "C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\AAR-2025\\AAR-2025\\Generation.h",
+              "RelativeDocumentMoniker": "AAR-2025\\Generation.h",
+              "ToolTip": "C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\AAR-2025\\AAR-2025\\Generation.h",
+              "RelativeToolTip": "AAR-2025\\Generation.h",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAAsAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-13T21:00:20.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Log.h",
+              "DocumentMoniker": "C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\AAR-2025\\AAR-2025\\Log.h",
+              "RelativeDocumentMoniker": "AAR-2025\\Log.h",
+              "ToolTip": "C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\AAR-2025\\AAR-2025\\Log.h",
+              "RelativeToolTip": "AAR-2025\\Log.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-14T13:27:25.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LT.h",
+              "DocumentMoniker": "C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\AAR-2025\\AAR-2025\\LT.h",
+              "RelativeDocumentMoniker": "AAR-2025\\LT.h",
+              "ToolTip": "C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\AAR-2025\\AAR-2025\\LT.h",
+              "RelativeToolTip": "AAR-2025\\LT.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-13T21:34:17.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SemanticAnaliz.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\AAR-2025\\AAR-2025\\SemanticAnaliz.cpp",
+              "RelativeDocumentMoniker": "AAR-2025\\SemanticAnaliz.cpp",
+              "ToolTip": "C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\AAR-2025\\AAR-2025\\SemanticAnaliz.cpp",
+              "RelativeToolTip": "AAR-2025\\SemanticAnaliz.cpp",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-14T14:41:10.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "inTable.id.txt",
+              "DocumentMoniker": "C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\Files\\inTable.id.txt",
+              "RelativeDocumentMoniker": "..\\Files\\inTable.id.txt",
+              "ToolTip": "C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\Files\\inTable.id.txt",
+              "RelativeToolTip": "..\\Files\\inTable.id.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-12-14T13:29:41.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "graphs.h",
+              "DocumentMoniker": "C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\AAR-2025\\AAR-2025\\graphs.h",
+              "RelativeDocumentMoniker": "AAR-2025\\graphs.h",
+              "ToolTip": "C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\AAR-2025\\AAR-2025\\graphs.h",
+              "RelativeToolTip": "AAR-2025\\graphs.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-13T21:06:13.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IT.h",
+              "DocumentMoniker": "C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\AAR-2025\\AAR-2025\\IT.h",
+              "RelativeDocumentMoniker": "AAR-2025\\IT.h",
+              "ToolTip": "C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\AAR-2025\\AAR-2025\\IT.h",
+              "RelativeToolTip": "AAR-2025\\IT.h",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAADEAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-13T22:21:31.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "In.h",
+              "DocumentMoniker": "C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\AAR-2025\\AAR-2025\\In.h",
+              "RelativeDocumentMoniker": "AAR-2025\\In.h",
+              "ToolTip": "C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\AAR-2025\\AAR-2025\\In.h",
+              "RelativeToolTip": "AAR-2025\\In.h",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABEAAABxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-18T00:29:04.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "LexAnalysis.h",
+              "DocumentMoniker": "C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\AAR-2025\\AAR-2025\\LexAnalysis.h",
+              "RelativeDocumentMoniker": "AAR-2025\\LexAnalysis.h",
+              "ToolTip": "C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\AAR-2025\\AAR-2025\\LexAnalysis.h",
+              "RelativeToolTip": "AAR-2025\\LexAnalysis.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-14T14:05:59.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "FST.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\AAR-2025\\AAR-2025\\FST.cpp",
+              "RelativeDocumentMoniker": "AAR-2025\\FST.cpp",
+              "ToolTip": "C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\AAR-2025\\AAR-2025\\FST.cpp",
+              "RelativeToolTip": "AAR-2025\\FST.cpp",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAEsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-13T21:37:59.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "FST.h",
+              "DocumentMoniker": "C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\AAR-2025\\AAR-2025\\FST.h",
+              "RelativeDocumentMoniker": "AAR-2025\\FST.h",
+              "ToolTip": "C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\AAR-2025\\AAR-2025\\FST.h",
+              "RelativeToolTip": "AAR-2025\\FST.h",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAA8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-13T21:38:04.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "PolishNotation.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\AAR-2025\\AAR-2025\\PolishNotation.cpp",
+              "RelativeDocumentMoniker": "AAR-2025\\PolishNotation.cpp",
+              "ToolTip": "C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\AAR-2025\\AAR-2025\\PolishNotation.cpp",
+              "RelativeToolTip": "AAR-2025\\PolishNotation.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-13T22:24:14.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "In.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\AAR-2025\\AAR-2025\\In.cpp",
+              "RelativeDocumentMoniker": "AAR-2025\\In.cpp",
+              "ToolTip": "C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\AAR-2025\\AAR-2025\\In.cpp",
+              "RelativeToolTip": "AAR-2025\\In.cpp",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAACoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-13T22:24:07.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IT.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\AAR-2025\\AAR-2025\\IT.cpp",
+              "RelativeDocumentMoniker": "AAR-2025\\IT.cpp",
+              "ToolTip": "C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\AAR-2025\\AAR-2025\\IT.cpp",
+              "RelativeToolTip": "AAR-2025\\IT.cpp",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAjwHcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-13T22:08:32.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Out.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\AAR-2025\\AAR-2025\\Out.cpp",
+              "RelativeDocumentMoniker": "AAR-2025\\Out.cpp",
+              "ToolTip": "C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\AAR-2025\\AAR-2025\\Out.cpp",
+              "RelativeToolTip": "AAR-2025\\Out.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-18T05:07:41.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "LT.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\AAR-2025\\AAR-2025\\LT.cpp",
+              "RelativeDocumentMoniker": "AAR-2025\\LT.cpp",
+              "ToolTip": "C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\AAR-2025\\AAR-2025\\LT.cpp",
+              "RelativeToolTip": "AAR-2025\\LT.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHEAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-18T00:48:55.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Log.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\AAR-2025\\AAR-2025\\Log.cpp",
+              "RelativeDocumentMoniker": "AAR-2025\\Log.cpp",
+              "ToolTip": "C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\AAR-2025\\AAR-2025\\Log.cpp",
+              "RelativeToolTip": "AAR-2025\\Log.cpp",
+              "ViewState": "AgIAAEgAAAAAAAAAAAD4v1sAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-14T19:10:58.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "GRB.h",
+              "DocumentMoniker": "C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\AAR-2025\\AAR-2025\\GRB.h",
+              "RelativeDocumentMoniker": "AAR-2025\\GRB.h",
+              "ToolTip": "C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\AAR-2025\\AAR-2025\\GRB.h",
+              "RelativeToolTip": "AAR-2025\\GRB.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-13T21:41:59.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Out.h",
+              "DocumentMoniker": "C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\AAR-2025\\AAR-2025\\Out.h",
+              "RelativeDocumentMoniker": "AAR-2025\\Out.h",
+              "ToolTip": "C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\AAR-2025\\AAR-2025\\Out.h",
+              "RelativeToolTip": "AAR-2025\\Out.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-18T04:04:48.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Parm.h",
+              "DocumentMoniker": "C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\AAR-2025\\AAR-2025\\Parm.h",
+              "RelativeDocumentMoniker": "AAR-2025\\Parm.h",
+              "ToolTip": "C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\AAR-2025\\AAR-2025\\Parm.h",
+              "RelativeToolTip": "AAR-2025\\Parm.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-18T04:03:58.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "MFST.h",
+              "DocumentMoniker": "C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\AAR-2025\\AAR-2025\\MFST.h",
+              "RelativeDocumentMoniker": "AAR-2025\\MFST.h",
+              "ToolTip": "C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\AAR-2025\\AAR-2025\\MFST.h",
+              "RelativeToolTip": "AAR-2025\\MFST.h",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAkwFcAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-13T22:24:37.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "stdafx.h",
+              "DocumentMoniker": "C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\AAR-2025\\AAR-2025\\stdafx.h",
+              "RelativeDocumentMoniker": "AAR-2025\\stdafx.h",
+              "ToolTip": "C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\AAR-2025\\AAR-2025\\stdafx.h",
+              "RelativeToolTip": "AAR-2025\\stdafx.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-18T04:03:52.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "SemanticAnaliz.h",
+              "DocumentMoniker": "C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\AAR-2025\\AAR-2025\\SemanticAnaliz.h",
+              "RelativeDocumentMoniker": "AAR-2025\\SemanticAnaliz.h",
+              "ToolTip": "C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\AAR-2025\\AAR-2025\\SemanticAnaliz.h",
+              "RelativeToolTip": "AAR-2025\\SemanticAnaliz.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-18T04:03:54.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "PolishNotation.h",
+              "DocumentMoniker": "C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\AAR-2025\\AAR-2025\\PolishNotation.h",
+              "RelativeDocumentMoniker": "AAR-2025\\PolishNotation.h",
+              "ToolTip": "C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\AAR-2025\\AAR-2025\\PolishNotation.h",
+              "RelativeToolTip": "AAR-2025\\PolishNotation.h",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-18T04:03:56.178Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Parm.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\AAR-2025\\AAR-2025\\Parm.cpp",
+              "RelativeDocumentMoniker": "AAR-2025\\Parm.cpp",
+              "ToolTip": "C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\AAR-2025\\AAR-2025\\Parm.cpp",
+              "RelativeToolTip": "AAR-2025\\Parm.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-18T00:14:09.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "inTable.lex.txt",
+              "DocumentMoniker": "C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\Files\\inTable.lex.txt",
+              "RelativeDocumentMoniker": "..\\Files\\inTable.lex.txt",
+              "ToolTip": "C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\Files\\inTable.lex.txt",
+              "RelativeToolTip": "..\\Files\\inTable.lex.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-12-14T13:29:34.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "In.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\AAR-2025\\KAD-2022\\In.cpp",
+              "RelativeDocumentMoniker": "KAD-2022\\In.cpp",
+              "ToolTip": "C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\AAR-2025\\KAD-2022\\In.cpp",
+              "RelativeToolTip": "KAD-2022\\In.cpp",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-13T20:43:21.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "AAR-2025.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\AAR-2025\\KAD-2022\\AAR-2025.cpp",
+              "RelativeDocumentMoniker": "KAD-2022\\AAR-2025.cpp",
+              "ToolTip": "C:\\Users\\user\\work_space\\Laboratory_work\\AAR-2025\\AAR-2025\\KAD-2022\\AAR-2025.cpp",
+              "RelativeToolTip": "KAD-2022\\AAR-2025.cpp",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-13T02:06:35.102Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "IT.h",
+              "DocumentMoniker": "C:\\Users\\user\\work_space\\Laboratory_work\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\IT.h",
+              "RelativeDocumentMoniker": "..\\..\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\IT.h",
+              "ToolTip": "C:\\Users\\user\\work_space\\Laboratory_work\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\IT.h",
+              "RelativeToolTip": "..\\..\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\IT.h",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAMwBcAAABpAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-13T01:34:56.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "LT.h",
+              "DocumentMoniker": "C:\\Users\\user\\work_space\\Laboratory_work\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\LT.h",
+              "RelativeDocumentMoniker": "..\\..\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\LT.h",
+              "ToolTip": "C:\\Users\\user\\work_space\\Laboratory_work\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\LT.h",
+              "RelativeToolTip": "..\\..\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\LT.h",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-13T01:34:56.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Parm.h",
+              "DocumentMoniker": "C:\\Users\\user\\work_space\\Laboratory_work\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\Parm.h",
+              "RelativeDocumentMoniker": "..\\..\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\Parm.h",
+              "ToolTip": "C:\\Users\\user\\work_space\\Laboratory_work\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\Parm.h",
+              "RelativeToolTip": "..\\..\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\Parm.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-13T01:34:56.724Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "PolishNotation.h",
+              "DocumentMoniker": "C:\\Users\\user\\work_space\\Laboratory_work\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\PolishNotation.h",
+              "RelativeDocumentMoniker": "..\\..\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\PolishNotation.h",
+              "ToolTip": "C:\\Users\\user\\work_space\\Laboratory_work\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\PolishNotation.h",
+              "RelativeToolTip": "..\\..\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\PolishNotation.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-13T01:34:56.713Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "SemanticAnaliz.h",
+              "DocumentMoniker": "C:\\Users\\user\\work_space\\Laboratory_work\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\SemanticAnaliz.h",
+              "RelativeDocumentMoniker": "..\\..\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\SemanticAnaliz.h",
+              "ToolTip": "C:\\Users\\user\\work_space\\Laboratory_work\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\SemanticAnaliz.h",
+              "RelativeToolTip": "..\\..\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\SemanticAnaliz.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-13T01:34:56.713Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "stdafx.h",
+              "DocumentMoniker": "C:\\Users\\user\\work_space\\Laboratory_work\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\stdafx.h",
+              "RelativeDocumentMoniker": "..\\..\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\stdafx.h",
+              "ToolTip": "C:\\Users\\user\\work_space\\Laboratory_work\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\stdafx.h",
+              "RelativeToolTip": "..\\..\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\stdafx.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-13T01:34:56.724Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "AAR-2025.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\work_space\\Laboratory_work\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\AAR-2025.cpp",
+              "RelativeDocumentMoniker": "..\\..\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\AAR-2025.cpp",
+              "ToolTip": "C:\\Users\\user\\work_space\\Laboratory_work\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\AAR-2025.cpp",
+              "RelativeToolTip": "..\\..\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\AAR-2025.cpp",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAcwFAAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-13T01:34:56.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "IT.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\work_space\\Laboratory_work\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\IT.cpp",
+              "RelativeDocumentMoniker": "..\\..\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\IT.cpp",
+              "ToolTip": "C:\\Users\\user\\work_space\\Laboratory_work\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\IT.cpp",
+              "RelativeToolTip": "..\\..\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\IT.cpp",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAcwIMAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-13T01:34:56.71Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "PolishNotation.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\work_space\\Laboratory_work\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\PolishNotation.cpp",
+              "RelativeDocumentMoniker": "..\\..\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\PolishNotation.cpp",
+              "ToolTip": "C:\\Users\\user\\work_space\\Laboratory_work\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\PolishNotation.cpp",
+              "RelativeToolTip": "..\\..\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\PolishNotation.cpp",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAcwIoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-13T01:34:56.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Parm.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\work_space\\Laboratory_work\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\Parm.cpp",
+              "RelativeDocumentMoniker": "..\\..\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\Parm.cpp",
+              "ToolTip": "C:\\Users\\user\\work_space\\Laboratory_work\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\Parm.cpp",
+              "RelativeToolTip": "..\\..\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\Parm.cpp",
+              "ViewState": "AgIAACMAAAAAAAAAAAAcwEEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-13T01:34:56.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "LexAnalysis.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\work_space\\Laboratory_work\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\LexAnalysis.cpp",
+              "RelativeDocumentMoniker": "..\\..\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\LexAnalysis.cpp",
+              "ToolTip": "C:\\Users\\user\\work_space\\Laboratory_work\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\LexAnalysis.cpp",
+              "RelativeToolTip": "..\\..\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\LexAnalysis.cpp",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-13T01:34:56.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Out.h",
+              "DocumentMoniker": "C:\\Users\\user\\work_space\\Laboratory_work\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\Out.h",
+              "RelativeDocumentMoniker": "..\\..\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\Out.h",
+              "ToolTip": "C:\\Users\\user\\work_space\\Laboratory_work\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\Out.h",
+              "RelativeToolTip": "..\\..\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\Out.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-13T01:34:56.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "MFST.h",
+              "DocumentMoniker": "C:\\Users\\user\\work_space\\Laboratory_work\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\MFST.h",
+              "RelativeDocumentMoniker": "..\\..\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\MFST.h",
+              "ToolTip": "C:\\Users\\user\\work_space\\Laboratory_work\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\MFST.h",
+              "RelativeToolTip": "..\\..\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\MFST.h",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAcwIYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-13T01:34:56.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "Log.h",
+              "DocumentMoniker": "C:\\Users\\user\\work_space\\Laboratory_work\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\Log.h",
+              "RelativeDocumentMoniker": "..\\..\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\Log.h",
+              "ToolTip": "C:\\Users\\user\\work_space\\Laboratory_work\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\Log.h",
+              "RelativeToolTip": "..\\..\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\Log.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-13T01:34:56.713Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "LexAnalysis.h",
+              "DocumentMoniker": "C:\\Users\\user\\work_space\\Laboratory_work\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\LexAnalysis.h",
+              "RelativeDocumentMoniker": "..\\..\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\LexAnalysis.h",
+              "ToolTip": "C:\\Users\\user\\work_space\\Laboratory_work\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\LexAnalysis.h",
+              "RelativeToolTip": "..\\..\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\LexAnalysis.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-13T01:34:56.71Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "In.h",
+              "DocumentMoniker": "C:\\Users\\user\\work_space\\Laboratory_work\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\In.h",
+              "RelativeDocumentMoniker": "..\\..\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\In.h",
+              "ToolTip": "C:\\Users\\user\\work_space\\Laboratory_work\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\In.h",
+              "RelativeToolTip": "..\\..\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\In.h",
+              "ViewState": "AgIAACIAAAAAAAAAAAAcwEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-13T01:34:56.712Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "GRB.h",
+              "DocumentMoniker": "C:\\Users\\user\\work_space\\Laboratory_work\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\GRB.h",
+              "RelativeDocumentMoniker": "..\\..\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\GRB.h",
+              "ToolTip": "C:\\Users\\user\\work_space\\Laboratory_work\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\GRB.h",
+              "RelativeToolTip": "..\\..\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\GRB.h",
+              "ViewState": "AgIAADUAAAAAAAAAAAAcwFMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-13T01:34:56.712Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "graphs.h",
+              "DocumentMoniker": "C:\\Users\\user\\work_space\\Laboratory_work\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\graphs.h",
+              "RelativeDocumentMoniker": "..\\..\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\graphs.h",
+              "ToolTip": "C:\\Users\\user\\work_space\\Laboratory_work\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\graphs.h",
+              "RelativeToolTip": "..\\..\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\graphs.h",
+              "ViewState": "AgIAAJIBAAAAAAAAAAAcwLABAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-13T01:34:56.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "Generation.h",
+              "DocumentMoniker": "C:\\Users\\user\\work_space\\Laboratory_work\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\Generation.h",
+              "RelativeDocumentMoniker": "..\\..\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\Generation.h",
+              "ToolTip": "C:\\Users\\user\\work_space\\Laboratory_work\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\Generation.h",
+              "RelativeToolTip": "..\\..\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\Generation.h",
+              "ViewState": "AgIAACQAAAAAAAAAAAAcwEIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-13T01:34:56.712Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "FST.h",
+              "DocumentMoniker": "C:\\Users\\user\\work_space\\Laboratory_work\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\FST.h",
+              "RelativeDocumentMoniker": "..\\..\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\FST.h",
+              "ToolTip": "C:\\Users\\user\\work_space\\Laboratory_work\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\FST.h",
+              "RelativeToolTip": "..\\..\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\FST.h",
+              "ViewState": "AgIAACEAAAAAAAAAAAAcwD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-13T01:34:56.725Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "Error.h",
+              "DocumentMoniker": "C:\\Users\\user\\work_space\\Laboratory_work\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\Error.h",
+              "RelativeDocumentMoniker": "..\\..\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\Error.h",
+              "ToolTip": "C:\\Users\\user\\work_space\\Laboratory_work\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\Error.h",
+              "RelativeToolTip": "..\\..\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\Error.h",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAcwCMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-13T01:34:56.71Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "SemanticAnaliz.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\work_space\\Laboratory_work\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\SemanticAnaliz.cpp",
+              "RelativeDocumentMoniker": "..\\..\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\SemanticAnaliz.cpp",
+              "ToolTip": "C:\\Users\\user\\work_space\\Laboratory_work\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\SemanticAnaliz.cpp",
+              "RelativeToolTip": "..\\..\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\SemanticAnaliz.cpp",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAcwIEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-13T01:34:56.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "Out.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\work_space\\Laboratory_work\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\Out.cpp",
+              "RelativeDocumentMoniker": "..\\..\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\Out.cpp",
+              "ToolTip": "C:\\Users\\user\\work_space\\Laboratory_work\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\Out.cpp",
+              "RelativeToolTip": "..\\..\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\Out.cpp",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAcwCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-13T01:34:56.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "MFST.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\work_space\\Laboratory_work\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\MFST.cpp",
+              "RelativeDocumentMoniker": "..\\..\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\MFST.cpp",
+              "ToolTip": "C:\\Users\\user\\work_space\\Laboratory_work\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\MFST.cpp",
+              "RelativeToolTip": "..\\..\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\MFST.cpp",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-13T01:34:56.471Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "LT.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\work_space\\Laboratory_work\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\LT.cpp",
+              "RelativeDocumentMoniker": "..\\..\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\LT.cpp",
+              "ToolTip": "C:\\Users\\user\\work_space\\Laboratory_work\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\LT.cpp",
+              "RelativeToolTip": "..\\..\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\LT.cpp",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAcwHIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-13T01:34:56.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "Log.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\work_space\\Laboratory_work\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\Log.cpp",
+              "RelativeDocumentMoniker": "..\\..\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\Log.cpp",
+              "ToolTip": "C:\\Users\\user\\work_space\\Laboratory_work\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\Log.cpp",
+              "RelativeToolTip": "..\\..\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\Log.cpp",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAcwIMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-13T01:34:56.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "In.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\work_space\\Laboratory_work\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\In.cpp",
+              "RelativeDocumentMoniker": "..\\..\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\In.cpp",
+              "ToolTip": "C:\\Users\\user\\work_space\\Laboratory_work\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\In.cpp",
+              "RelativeToolTip": "..\\..\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\In.cpp",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-13T01:34:56.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "GRB.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\work_space\\Laboratory_work\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\GRB.cpp",
+              "RelativeDocumentMoniker": "..\\..\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\GRB.cpp",
+              "ToolTip": "C:\\Users\\user\\work_space\\Laboratory_work\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\GRB.cpp",
+              "RelativeToolTip": "..\\..\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\GRB.cpp",
+              "ViewState": "AgIAAKEAAAAAAAAAAAAcwL8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-13T01:34:56.614Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "Generation.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\work_space\\Laboratory_work\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\Generation.cpp",
+              "RelativeDocumentMoniker": "..\\..\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\Generation.cpp",
+              "ToolTip": "C:\\Users\\user\\work_space\\Laboratory_work\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\Generation.cpp",
+              "RelativeToolTip": "..\\..\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\Generation.cpp",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-13T01:34:56.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "FST.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\work_space\\Laboratory_work\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\FST.cpp",
+              "RelativeDocumentMoniker": "..\\..\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\FST.cpp",
+              "ToolTip": "C:\\Users\\user\\work_space\\Laboratory_work\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\FST.cpp",
+              "RelativeToolTip": "..\\..\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\FST.cpp",
+              "ViewState": "AgIAADAAAAAAAAAAAAAcwE4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-13T01:34:56.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "Error.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\work_space\\Laboratory_work\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\Error.cpp",
+              "RelativeDocumentMoniker": "..\\..\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\Error.cpp",
+              "ToolTip": "C:\\Users\\user\\work_space\\Laboratory_work\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\Error.cpp",
+              "RelativeToolTip": "..\\..\\KAD-2022-CourseProject\\AAR-2025\\KAD-2022\\Error.cpp",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAcwGMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-13T01:34:56.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "strcat.asm",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Windows Kits\\10\\Source\\10.0.22000.0\\ucrt\\string\\i386\\strcat.asm",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files (x86)\\Windows Kits\\10\\Source\\10.0.22000.0\\ucrt\\string\\i386\\strcat.asm",
+              "ToolTip": "C:\\Program Files (x86)\\Windows Kits\\10\\Source\\10.0.22000.0\\ucrt\\string\\i386\\strcat.asm",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files (x86)\\Windows Kits\\10\\Source\\10.0.22000.0\\ucrt\\string\\i386\\strcat.asm",
+              "ViewState": "AQIAAJ8AAAAAAAAAAAAawLEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2022-12-17T20:47:12.493Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "ASM.asm",
+              "DocumentMoniker": "D:\\studing\\\u0410\u0440\u0445\u0438\u0432\\3 sem\\\u0427\u0443\u0436\u0438\u0435 \u041A\u0420 \u043F\u043E \u0442\u0440\u0430\u043D\u0441\u043B\u044F\u0442\u043E\u0440\u0443\\\u041A\u0443\u0440\u0441\u043E\u0432\u043E\u0439_3\\GAA-2020\\ASM\\ASM.asm",
+              "ToolTip": "D:\\studing\\\u0410\u0440\u0445\u0438\u0432\\3 sem\\\u0427\u0443\u0436\u0438\u0435 \u041A\u0420 \u043F\u043E \u0442\u0440\u0430\u043D\u0441\u043B\u044F\u0442\u043E\u0440\u0443\\\u041A\u0443\u0440\u0441\u043E\u0432\u043E\u0439_3\\GAA-2020\\ASM\\ASM.asm",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAAAAkAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2022-12-09T19:49:24.628Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,201 @@
+int def LogicAndBitwiseDemo(int param x, int param y)
+{
+	print "Входные числа: ";
+	print x;
+	print y;
+
+	int let resultEq;
+	
+	if(x & y):
+	{
+		print "X равно Y: ";
+	}
+	else
+	{
+		if (x > y):
+		{
+			print "X больше Y: ";
+		}
+		else
+		{
+			if (x < y):
+			{
+				print "X меньше Y: ";
+			}
+			else
+			{
+				if (x ^ y):
+				{
+					print "X не равно Y: ";
+				}
+			}
+		}
+	}
+	return 0;
+}
+
+int def ArithmeticDemo(int param a, int param b)
+{
+	print "--- Арифметические операции ---";
+	print "Входные числа: ";
+	print a;
+	print b;
+
+	int let sum;
+	sum = a + b;
+	print "Сложение (a + b): "; print sum;
+
+	int let difference;
+	difference = a - b;
+	print "Вычитание (a - b): ";
+	print difference;
+
+	int let product;
+	product = a * b;
+	print "Умножение (a * b): ";
+	print product;
+
+	int let division;
+	division = a / b;
+	print "Деление (a / b): ";
+	print division;
+
+	int let remainder;
+	remainder = a % b;
+	print "Остаток от деления: ";
+	print remainder;
+	
+	return sum;
+}
+
+
+int def SwitchDemo(int param choice)
+{
+	print "--- Демонстрация switch/case ---";
+	switch(choice)
+	{
+		case(1):
+		{
+			print "Выбран Кейс 1: Проверка целочисленных литералов";
+			
+			int let binaryVal;
+			binaryVal = b1101;
+			int let octalVal;
+			octalVal = h33;
+			
+			print "Двоичный b1101 (13): ";
+			print binaryVal;
+			print "Восьмеричный h33 (27): ";
+			print octalVal;
+		}
+		case(2):
+		{
+			print "Выбран Кейс 2: Проверка функций времени и случайных чисел";
+			
+			str let rTime; rTime = getLocalTimeAndDate();
+			print "Текущее время: ";
+			print rTime;
+
+			int let rResult; rResult = random(1, 10);
+			print "Случайное число от 1 до 10: ";
+			print rResult;
+
+			break;
+		}
+		default:
+		{
+			print "Дефолтный Кейс: Неверный выбор";
+			break;
+		}
+	}
+	return choice;
+}
+
+
+main
+{
+	str let separator;
+	separator = " ";
+
+	print separator;
+
+	int let firstoperand;
+	firstoperand = 50;
+	int let secondoperand;
+	secondoperand = 5;
+	secondoperand = ArithmeticDemo(firstoperand, secondoperand);
+	print separator;
+	
+	
+	print "--- Сравнения ---";
+	int let logA; 
+	logA = 10;
+	int let logB;
+	logB = 10;
+	logB = LogicAndBitwiseDemo(logA, logB);
+	print separator;
+	
+	logB = 15;
+	logB = LogicAndBitwiseDemo(logA, logB);
+	print separator;
+	
+	logB = SwitchDemo(1);
+	print separator;
+
+	logB = SwitchDemo(2);
+	print separator;
+	
+	print "--- Встроенные Функции для Чисел ---";
+	print separator;
+	
+	int let pResult;
+	pResult = powNumber(4, 3);
+	print "4 в степени 3 (pow(4, 3)): "; 
+	print pResult;
+	
+	int let factorial = factorialOfNumber(4);
+	print "Факториал 4: "; 
+	print factorial;
+	
+	int let square = squareOfNumber(9);
+	print "Квадратный корень 9: "; 
+	print square;
+
+	print separator;
+	print "--- Функции для Строк и Цикл ---";
+	print separator;
+	
+	str let myString; myString = "TestString";
+	int let len;
+	len = lenght(myString);
+	print "Строка: ";
+	print myString;
+	print "Длина строки: ";
+	print len;
+
+	str let destStr;
+	destStr = copy(destStr, myString, 4);
+	print "Скопированные 4 символа: "; 
+	print destStr;
+	print separator;
+	
+	print "Цикл repeat (вывод чисел от 1 до 5):";
+	int let i = 1;
+	repeat(i < 6)
+	{
+		print i;
+		i = i + 1;
+	}
+	print separator;
+	print "--- Представление логического литарала ---";
+	bool let flag = 1;
+	print "flag = false";
+	if(flag):
+	{
+		print "Тест не пройден";
+	}
+	else
+	{
+		print "Тест пройден";
+	}
+}

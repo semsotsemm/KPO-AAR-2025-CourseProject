@@ -1,0 +1,19 @@
+digraph PST {
+  rankdir=TB;
+  splines=polyline;
+  node [
+    fontname="Helvetica Bold", 
+    fontsize=24, 
+    shape=circle,
+    fixedsize=true,
+    width=1.0,
+    height=1.0
+  ];
+
+  edge [
+    fontname="Helvetica", 
+    style=bold
+  ];
+
+10910064 [label="S", shape=circle, style=filled, fillcolor="#FFFFFF"];
+}

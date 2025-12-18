@@ -1,0 +1,131 @@
+int def ArithmeticDemo(int param a, int param b)
+{
+	print "--- Арифметические операции ---";
+	print "Входные числа: ";
+	print a;
+	print b;
+
+	int let sum;
+	sum = a + b;
+	print "Сложение (a + b): "; print sum;
+
+	int let difference;
+	difference = a - b;
+	print "Вычитание (a - b): "; 
+	print difference;
+
+	int let product; 
+	product = a * b;
+	print "Умножение (a * b): ";
+	print product;
+
+	int let division;
+	division = a / b;
+	print "Деление (a / b): "; 
+	print division;
+
+	int let remainder;
+	remainder = a % b;
+	print "Остаток: "; 
+	print remainder;
+	
+	return sum;
+}
+
+
+int def SwitchDemo(int param choice)
+{
+	print "--- Демонстрация switch/case ---";
+
+	switch(choice)
+	{
+		case(1):
+		{
+			print "Выбран Кейс 1: Проверка целочисленных литералов";
+			
+			int let binaryVal; 
+			binaryVal = b1101;
+			int let hexVal; 
+			hexVal = h1B;
+			
+			print "Двоичный b1101 (13): "; print binaryVal;
+			print "Шестнадцатеричный h1B (27): "; print hexVal;
+			break;
+		}
+		case(2):
+		{
+			print "Выбран Кейс 2: Проверка встроенных функций";
+			
+			int let pResult; 
+			pResult = powNumber(5, 3); 
+			print "5 в степени 3 (pow(5, 3)): "; print pResult;
+
+			int let rResult; rResult = random(1, 10);
+			print "Произвольное число от 1 до 10: "; print rResult;
+
+			break;
+		}
+		default:
+		{
+			print "Дефолтный Кейс: Неверный выбор (не 1 или 2)";
+			break;
+		}
+	}
+	return choice;
+}
+
+int def LogicAndStringDemo(str param text, int param length)
+{
+	print "--- Логические литералы и Строковый тип ---";
+	
+	str let logicTrue; logicTrue = "true"; # Храним как строку для демонстрации
+	str let logicFalse; logicFalse = "false";
+	
+	print "Логический литерал true: "; 
+	print logicTrue;
+	print "Логический литерал false: "; 
+	print logicFalse;
+	
+	# Строковый тип и операции
+	print "Исходная строка: "; print text;
+	
+	int let len; len = lenght(text); # Встроенная функция длины
+	print "Длина строки: "; print len;
+
+	int let isLonger;
+	if (len > length):
+	{
+	    isLonger = 1; # Имитация true
+	    print "Длина строки больше, чем "; print length;
+	}
+	else
+	{
+	    isLonger = 0; # Имитация false
+	    print "Длина строки меньше или равна "; print length;
+	}
+	
+	return isLonger;
+}
+
+
+main
+{
+	str let separator; separator = " ";
+
+	int let firstoperand; firstoperand = 50;
+	int let secondoperand; secondoperand = 5;
+	secondoperand = ArithmeticDemo(firstoperand, secondoperand);
+	print separator;
+	
+	# Вызываем Кейс 1 для проверки литералов
+	secondoperand = SwitchDemo(1);
+	print separator;
+
+	# Вызываем Кейс 2 для проверки pow и random
+	secondoperand = SwitchDemo(2);
+	print separator;
+	
+	str let myString; myString = "Visual Studio 2020";
+	secondoperand = LogicAndStringDemo(myString, 10);
+	print separator;
+}

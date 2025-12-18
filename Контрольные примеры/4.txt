@@ -1,0 +1,46 @@
+main
+{
+	print "Текущее время:";
+	str let timeNow; 
+	timeNow = getLocalTimeAndDate(); 
+	print timeNow;
+	print " ";
+	
+	print "вывод чётных чисел в диапазоне от 10 до 50:";
+	
+	int let i; 
+	i = b1010; 
+	
+	repeat(i < h32) 
+	{
+		int let result;
+		result = i % 2;
+		
+		if(result & 0): 
+		{
+			print i;
+			print " ";
+		}
+		
+		i = i + 1;
+	}
+	print " ";
+	
+	str let s;
+	s = "notebook";
+	str let res;
+	
+	res = copy(res, s, 4); 
+	
+	print "Копирование строк:";
+	print res;
+	print " ";
+	
+	int let num; 
+	num = 10;
+	int let r; 
+	r = factorialOfNumber(num); 
+	
+	print "Факториал 10:";
+	print r;
+}

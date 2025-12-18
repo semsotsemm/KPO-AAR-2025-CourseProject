@@ -1,0 +1,94 @@
+ПЕРЕМЕННЫЕ
+Индекс LE	Область видимости	Идентификатор	Тип Идентификатора	Тип данных	Значение	Длина строки
+        6	LogicAndBitwiseDemo	            x	                 P	       INT	       0	           -
+       10	LogicAndBitwiseDemo	            y	                 P	       INT	       0	           -
+       24	           block0	     resultEq	                 V	       INT	       0	           -
+       93	   ArithmeticDemo	            a	                 P	       INT	       0	           -
+       97	   ArithmeticDemo	            b	                 P	       INT	       0	           -
+      114	           block8	          sum	                 V	       INT	       0	           -
+      130	           block8	   difference	                 V	       INT	       0	           -
+      146	           block8	      product	                 V	       INT	       0	           -
+      162	           block8	     division	                 V	       INT	       0	           -
+      178	           block8	    remainder	                 V	       INT	       0	           -
+      202	       SwitchDemo	       choice	                 P	       INT	       0	           -
+      224	          block11	    binaryVal	                 V	       INT	       0	           -
+      232	          block11	     octalVal	                 V	       INT	       0	           -
+      262	          block12	        rTime	                 V	       STR	        	           0
+      278	          block12	      rResult	                 V	       INT	       0	           -
+      315	          block14	    separator	                 V	       STR	        	           0
+      326	          block14	 firstoperand	                 V	       INT	       0	           -
+      334	          block14	secondoperand	                 V	       INT	       0	           -
+      357	          block14	         logA	                 V	       INT	       0	           -
+      365	          block14	         logB	                 V	       INT	       0	           -
+      427	          block14	      pResult	                 V	       INT	       0	           -
+      446	          block14	    factorial	                 V	       INT	       0	           -
+      461	          block14	       square	                 V	       INT	       0	           -
+      485	          block14	     myString	                 V	       STR	        	           0
+      493	          block14	          len	                 V	       INT	       0	           -
+      516	          block14	      destStr	                 V	       STR	        	           0
+      543	          block14	            i	                 V	       INT	       0	           -
+      572	          block14	         flag	                 V	       STR	        	           0
+
+ФУНКЦИИ
+Индекс LE	Область видимости	Идентификатор	Тип данных возврата
+        0	           global	       lenght	                INT
+        0	           global	         copy	                STR
+        0	           global	getLocalTimeAndDate	                STR
+        0	           global	    powNumber	                INT
+        0	           global	       random	                INT
+        0	           global	squareOfNumber	                INT
+        0	           global	factorialOfNumber	                INT
+        2	           global	LogicAndBitwiseDemo	                INT
+       89	LogicAndBitwiseDemo	ArithmeticDemo	                INT
+      198	   ArithmeticDemo	   SwitchDemo	                INT
+
+ЛИТЕРАЛЫ
+Индекс LE	Идентификатор	Тип данных	Длина строки		                         Значение
+       14	          L0        STR	             17                                     	"Входные числа: "
+       35	          L1        STR	             13                                     	"X равно Y: "
+       49	          L2        STR	             14                                     	"X больше Y: "
+       63	          L3        STR	             14                                     	"X меньше Y: "
+       77	          L4        STR	             16                                     	"X не равно Y: "
+       84	          L5        INT	              -		                                       0	
+      101	          L6        STR	             33                                     	"--- Арифметические операции ---"
+      123	          L7        STR	             20                                     	"Сложение (a + b): "
+      139	          L8        STR	             21                                     	"Вычитание (a - b): "
+      155	          L9        STR	             21                                     	"Умножение (a * b): "
+      171	         L10        STR	             19                                     	"Деление (a / b): "
+      187	         L11        STR	             22                                     	"Остаток от деления: "
+      206	         L12        STR	             34                                     	"--- Демонстрация switch/case ---"
+      215	         L13        INT	              -		                                       1	
+      220	         L14        STR	             49                                     	"Выбран Кейс 1: Проверка целочисленных литералов"
+      228	         L15        INT	              -		                                      13	
+      236	         L16        INT	              -		                                      51	
+      239	         L17        STR	             23                                     	"Двоичный b1101 (13): "
+      245	         L18        STR	             25                                     	"Восьмеричный h33 (27): "
+      253	         L19        INT	              -		                                       2	
+      258	         L20        STR	             59                                     	"Выбран Кейс 2: Проверка функций времени и случайных чисел"
+      271	         L21        STR	             17                                     	"Текущее время: "
+      286	         L22        INT	              -		                                      10	
+      290	         L23        STR	             30                                     	"Случайное число от 1 до 10: "
+      301	         L24        STR	             32                                     	"Дефолтный Кейс: Неверный выбор"
+      319	         L25        STR	              3                                     	" "
+      330	         L26        INT	              -		                                      50	
+      338	         L27        INT	              -		                                       5	
+      353	         L28        STR	             19                                     	"--- Сравнения ---"
+      385	         L29        INT	              -		                                      15	
+      420	         L30        STR	             38                                     	"--- Встроенные Функции для Чисел ---"
+      433	         L31        INT	              -		                                       4	
+      435	         L32        INT	              -		                                       3	
+      439	         L33        STR	             29                                     	"4 в степени 3 (pow(4, 3)): "
+      454	         L34        STR	             15                                     	"Факториал 4: "
+      465	         L35        INT	              -		                                       9	
+      469	         L36        STR	             23                                     	"Квадратный корень 9: "
+      478	         L37        STR	             34                                     	"--- Функции для Строк и Цикл ---"
+      489	         L38        STR	             12                                     	"TestString"
+      503	         L39        STR	             10                                     	"Строка: "
+      509	         L40        STR	             16                                     	"Длина строки: "
+      530	         L41        STR	             27                                     	"Скопированные 4 символа: "
+      539	         L42        STR	             38                                     	"Цикл repeat (вывод чисел от 1 до 5):"
+      551	         L43        INT	              -		                                       6	
+      568	         L44        STR	             44                                     	"--- Представление логического литарала ---"
+      577	         L45        STR	             14                                     	"flag = false"
+      586	         L46        STR	             17                                     	"Тест не пройден"
+      592	         L47        STR	             14                                     	"Тест пройден"

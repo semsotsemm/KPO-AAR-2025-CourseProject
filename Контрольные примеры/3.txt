@@ -1,0 +1,51 @@
+int def FindMaxLen(str param x, str param y)
+{
+	int let result;
+	int let lenX; 
+	lenX = lenght(x);
+	int let lenY; 
+	lenY = lenght(y);
+	
+	if(lenX > lenY):
+	{
+		result = lenX;
+	}
+	else
+	{
+		result = lenY;
+	}
+	return result;
+}
+
+main
+{
+	int let maxLen;
+	str let firstStr;	 
+	firstStr = "строка";
+	str let secondStr;	 
+	secondStr = "строка12";
+	str let thirdStr;	 
+	thirdStr = "строка123";
+	
+	print "исходные данные";
+	print firstStr;
+	print secondStr;
+	
+	maxLen = FindMaxLen(firstStr, secondStr);
+	
+	print "длина большей строки сравнивая первую и вторую строки:";
+	print maxLen;
+	print " "; # Добавляем разделитель для читаемости
+
+	firstStr = copy(firstStr, thirdStr, 5);
+	print "скопировав третью строку в первую строку";
+
+	print "исходные данные";
+	print firstStr;
+	print secondStr;
+	
+	maxLen = FindMaxLen(firstStr, secondStr);
+	
+	print "длина большей строки сравнивая первую и вторую строки:";
+	print maxLen;
+}
